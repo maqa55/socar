@@ -1,0 +1,2703 @@
+#home {
+    background-color: black;
+
+    .home-mini {
+        #one {
+            overflow: hidden;
+
+            .home-minibox {
+
+                .left {
+                    position: relative;
+
+                    .textbox {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 70%;
+
+                        .textmini {
+                            h1 {
+                                color: white;
+                                font-size: Montserrat;
+                                font-weight: 800;
+                                font-size: 3rem;
+                            }
+
+                            h5 {
+                                padding: 20px 0 10px;
+                                color: white;
+                                font-size: 18px;
+                                width: 87%;
+                            }
+
+                            p {
+                                color: #DFE5E6;
+                                font-size: 13px;
+                            }
+
+                            a {
+                                margin: 1.9rem 0;
+                                display: inline-block;
+                                padding: 10px 20px;
+                                background: #34C759;
+                                color: white;
+                                text-decoration: none;
+                                border-radius: 25px;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    .rightbox {
+                        .imgr {
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            right: -50px;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #coin {
+            padding: 0 0 2rem;
+
+            .coin-box {
+                display: grid;
+                place-items: end;
+                width: 95%;
+
+                .coin-boxmini {
+                    width: 70%;
+                    background: #232324;
+                    border-radius: 20px;
+                    padding: 10px 0;
+
+                    .boxmini {
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+
+                            li {
+                                img {
+                                    position: relative;
+                                    right: 25px;
+                                    top: 5px;
+                                }
+
+                                h5 {
+                                    color: gray;
+                                }
+
+                                span {
+                                    color: green;
+                                }
+
+                                p {
+                                    color: white;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                }
+
+                                .boxp {
+                                    color: green;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    .one {
+                        position: relative;
+                        left: -30px;
+
+                        .boxminil {
+
+                            ul {
+                                list-style: none;
+
+                                li {
+                                    h5 {
+                                        color: white;
+                                    }
+                                }
+                            }
+
+                            h6 {
+                                color: gray;
+                                font-weight: bold;
+                                font-size: 1rem;
+                            }
+                        }
+
+                        .logo2 {
+                            background-color: #33875A26;
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 50%;
+                            display: grid;
+                            place-items: center;
+
+                            img {
+                                width: 70%;
+                                height: auto;
+                                border-radius: 50%;
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+        #three {
+            padding: 4rem 0;
+
+            .thre-mini {
+                .right {
+                    display: grid;
+                    place-items: center;
+
+                    .rightmini {
+                        h5 {
+                            color: #34C759;
+                        }
+
+                        h1 {
+                            color: white;
+                            width: 70%;
+                        }
+
+                        p {
+                            color: gray;
+                            width: 90%;
+                            padding: 10px 0 30px;
+                        }
+
+                        a {
+                            display: inline-block;
+                            text-decoration: none;
+                            color: #34C759;
+                            border: 2px solid #34C759;
+                            border-radius: 30px;
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+
+                .left {
+                    .threeimg {
+                        width: 90%;
+
+                        img {
+                            position: relative;
+                            left: -12px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        #foor {
+            overflow: hidden;
+            padding: 2rem 0 5rem;
+
+            .foorbox {
+                width: 90%;
+                margin: auto;
+
+                .foorboxmini {
+                    .textbox {
+                        text-align: center;
+
+                        h3 {
+                            color: #34C759;
+                        }
+
+                        h2 {
+                            color: white;
+                        }
+                    }
+
+                    .rowbox {
+                        padding: 4rem 0 0;
+
+                        .boxes {
+                            .box {
+                                .foto {
+                                    width: 50%;
+                                    margin: auto;
+                                }
+
+                                .textmini {
+                                    h5 {
+                                        color: white;
+                                        padding: 10px 0 15px;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        width: 90%;
+                                        margin: auto;
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #five {
+            padding: 7rem 0 10rem;
+
+            .fivemini {
+                width: 90%;
+                margin: auto;
+
+                .fivebox {
+                    .boxes {
+                        .boxin {
+                            position: relative;
+                            overflow: hidden;
+                            background-image: url('/img/Rectangle\ 7.png');
+                            background-size: cover;
+                            background-position: center;
+                            padding: 4rem 0;
+
+                            .boxmini {
+                                gap: 20px;
+                                padding: 1.5rem 0 0;
+
+                                .boox1 {
+                                    border: 1px solid #34C759;
+                                    border-radius: 10px;
+                                    width: 40%;
+                                    height: 65vh;
+                                    position: relative;
+                                    background: #06942A;
+
+                                    .text2 {
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        text-align: center;
+                                        width: 100%;
+                                        background: #06942A;
+
+                                        .p1 {
+                                            color: white;
+                                        }
+
+                                        .plorem {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+                                            padding-top: 5px;
+                                        }
+
+                                        span {
+                                            font-size: 3rem;
+                                            font-weight: bold;
+                                            color: white;
+
+                                            small {
+                                                font-size: 2rem;
+                                                font-weight: bold;
+                                            }
+                                        }
+
+                                        h6 {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+
+                                            i {
+                                                color: white;
+                                                padding-right: 8px;
+                                            }
+
+                                        }
+
+                                        a {
+                                            margin-top: 2rem;
+                                            display: inline-block;
+                                            text-decoration: none;
+                                            border-radius: 25px;
+                                            border: 1px solid #34C759;
+                                            padding: 10px 30px;
+                                            background-color: white;
+                                            color: #06942A;
+                                        }
+                                    }
+                                }
+
+                                .boox {
+                                    border: 1px solid #34C759;
+                                    border-radius: 10px;
+                                    width: 40%;
+                                    height: 65vh;
+                                    position: relative;
+                                    background-color: black;
+
+
+                                    .text1 {
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        text-align: center;
+                                        width: 100%;
+
+                                        .p1 {
+                                            color: white;
+                                        }
+
+                                        .plorem {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+                                            padding-top: 10px;
+                                        }
+
+                                        span {
+                                            font-size: 3rem;
+                                            font-weight: bold;
+                                            color: white;
+
+                                            small {
+                                                font-size: 2rem;
+                                                font-weight: bold;
+                                            }
+                                        }
+
+                                        h6 {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+
+                                            i {
+                                                color: #34C759;
+                                                padding-right: 8px;
+                                            }
+
+                                        }
+
+                                        a {
+                                            margin-top: 3rem;
+                                            display: inline-block;
+                                            text-decoration: none;
+                                            border-radius: 25px;
+                                            border: 1px solid #34C759;
+                                            padding: 10px 30px;
+                                            color: #34C759;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .text {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h1 {
+                                    color: white;
+                                    width: 75%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    padding: 5px 0 25px;
+                                }
+
+                                a {
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    border-radius: 25px;
+                                    border: 1px solid #34C759;
+                                    padding: 10px 15px;
+                                    color: #34C759;
+                                }
+                            }
+                        }
+
+                        .box {
+                            padding: 4rem 0;
+
+                            .boxmini {
+                                gap: 20px;
+                                padding: 1.5rem 0 0;
+
+                                .boox1 {
+                                    border: 1px solid #34C759;
+                                    border-radius: 10px;
+                                    width: 40%;
+                                    height: 65vh;
+                                    position: relative;
+                                    background: #06942A;
+
+                                    .text2 {
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        text-align: center;
+                                        width: 100%;
+                                        background: #06942A;
+
+                                        .p1 {
+                                            color: white;
+                                        }
+
+                                        .plorem {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+                                            padding-top: 5px;
+                                        }
+
+                                        span {
+                                            font-size: 3rem;
+                                            font-weight: bold;
+                                            color: white;
+
+                                            small {
+                                                font-size: 2rem;
+                                                font-weight: bold;
+                                            }
+                                        }
+
+                                        h6 {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+
+                                            i {
+                                                color: white;
+                                                padding-right: 8px;
+                                            }
+
+                                        }
+
+                                        a {
+                                            margin-top: 2rem;
+                                            display: inline-block;
+                                            text-decoration: none;
+                                            border-radius: 25px;
+                                            border: 1px solid #34C759;
+                                            padding: 10px 30px;
+                                            background-color: white;
+                                            color: #06942A;
+                                        }
+                                    }
+                                }
+
+                                .boox {
+                                    border: 1px solid #34C759;
+                                    border-radius: 10px;
+                                    width: 40%;
+                                    height: 65vh;
+                                    position: relative;
+                                    background-color: black;
+
+
+                                    .text1 {
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        text-align: center;
+                                        width: 100%;
+
+                                        .p1 {
+                                            color: white;
+                                        }
+
+                                        .plorem {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+                                            padding-top: 10px;
+                                        }
+
+                                        span {
+                                            font-size: 3rem;
+                                            font-weight: bold;
+                                            color: white;
+
+                                            small {
+                                                font-size: 2rem;
+                                                font-weight: bold;
+                                            }
+                                        }
+
+                                        h6 {
+                                            color: #DFE5E6;
+                                            font-weight: 300;
+                                            font-size: 1rem;
+
+                                            i {
+                                                color: #34C759;
+                                                padding-right: 8px;
+                                            }
+
+                                        }
+
+                                        a {
+                                            margin-top: 3rem;
+                                            display: inline-block;
+                                            text-decoration: none;
+                                            border-radius: 25px;
+                                            border: 1px solid #34C759;
+                                            padding: 10px 30px;
+                                            color: #34C759;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .text {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h1 {
+                                    color: white;
+                                    width: 75%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    padding: 5px 0 25px;
+                                }
+
+                                a {
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    border-radius: 25px;
+                                    border: 1px solid #34C759;
+                                    padding: 10px 15px;
+                                    color: #34C759;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #end {
+            padding: 10rem 0 5rem;
+            position: relative;
+            overflow: hidden;
+            background-image: url('/img/contact\ \(3\).png');
+            background-size: cover;
+            background-position: center;
+
+            img {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .endbox {
+                position: relative;
+                z-index: 1;
+                text-align: center;
+
+                .endtext {
+                    h1 {
+                        color: white;
+                        font-weight: bold;
+                        padding-bottom: 5px;
+                    }
+
+                    p {
+                        color: #DFE5E6;
+                        width: 45%;
+                        margin: auto;
+                    }
+
+                    a {
+                        margin-top: 2rem;
+                        display: inline-block;
+                        text-decoration: none;
+                        border-radius: 25px;
+                        padding: 11px 30px;
+                        background-color: white;
+                        color: #06942A;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media(max-width:600px) {
+    #home {
+        background-color: black;
+
+        .home-mini {
+            #one {
+                overflow: hidden;
+                padding: 17rem 0 0;
+
+                .home-minibox {
+
+                    .left {
+                        position: relative;
+
+                        .textbox {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 90%;
+
+                            .textmini {
+                                h1 {
+                                    color: white;
+                                    font-size: Montserrat;
+                                    font-weight: 800;
+                                    font-size: 3.9rem;
+                                    width: 100%;
+                                }
+
+                                h5 {
+                                    padding: 20px 0 10px;
+                                    color: white;
+                                    font-size: 18px;
+                                    width: 100%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    font-size: 13px;
+                                    width: 90%;
+                                }
+
+                                a {
+                                    margin: 0rem 0;
+                                    display: inline-block;
+                                    padding: 10px 20px;
+                                    background: #34C759;
+                                    color: white;
+                                    text-decoration: none;
+                                    border-radius: 25px;
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        padding: 5rem 0 0;
+
+                        .rightbox {
+                            .imgr {
+                                width: 100%;
+                                height: 100%;
+                                position: relative;
+                                right: -50px;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #coin {
+                padding: 0 0 2rem;
+
+                .coin-box {
+                    display: grid;
+                    place-items: end;
+                    width: 95%;
+                    margin: auto;
+
+                    .coin-boxmini {
+                        width: 100%;
+                        background: #232324;
+                        border-radius: 20px;
+                        padding: 10px 0;
+                        justify-content: space-between;
+
+                        .boxmini {
+                            width: 100%;
+
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                list-style: none;
+
+                                li {
+                                    img {
+                                        position: relative;
+                                        right: 25px;
+                                        top: 5px;
+
+                                    }
+
+                                    h5 {
+                                        color: gray;
+                                        font-size: 15px;
+                                    }
+
+                                    span {
+                                        color: green;
+                                    }
+
+                                    p {
+                                        color: white;
+                                        font-weight: bold;
+                                        font-size: 12px;
+                                    }
+
+                                    .boxp {
+                                        color: green;
+                                        font-weight: bold;
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .one {
+                            position: relative;
+                            left: 5px;
+
+                            .boxminil {
+                                position: relative;
+                                left: -20px;
+
+                                ul {
+                                    list-style: none;
+
+                                    li {
+                                        h5 {
+                                            font-size: 15px;
+                                            color: white;
+                                            width: 100%;
+                                        }
+
+                                        h6 {
+                                            color: gray;
+                                            font-weight: bold;
+                                            font-size: 13px;
+                                        }
+                                    }
+                                }
+
+                            }
+
+                            .logo2 {
+                                background-color: #33875A26;
+                                width: 75px;
+                                height: 60px;
+                                border-radius: 50%;
+                                display: grid;
+                                place-items: center;
+
+                                img {
+                                    object-fit: cover;
+                                    width: 70%;
+                                    height: auto;
+                                    border-radius: 50%;
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+            }
+
+            #three {
+                padding: 4rem 0;
+
+                .thre-mini {
+                    width: 100%;
+                    margin: auto;
+
+                    .right {
+                        display: grid;
+                        place-items: center;
+
+                        .rightmini {
+                            h5 {
+                                color: #34C759;
+                            }
+
+                            h1 {
+                                color: white;
+                                width: 100%;
+                                font-size: 2.7rem;
+                            }
+
+                            p {
+                                color: gray;
+                                width: 100%;
+                                padding: 10px 0 30px;
+                            }
+
+                            a {
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #34C759;
+                                border: 2px solid #34C759;
+                                border-radius: 30px;
+                                padding: 10px 15px;
+                            }
+                        }
+                    }
+
+                    .left {
+                        display: none;
+                    }
+                }
+            }
+
+            #foor {
+                overflow: hidden;
+                padding: 2rem 0 5rem;
+
+                .foorbox {
+                    width: 90%;
+                    margin: auto;
+
+                    .foorboxmini {
+                        .textbox {
+                            text-align: center;
+
+                            h3 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                            }
+                        }
+
+                        .rowbox {
+                            padding: 4rem 0 0;
+
+                            .boxes {
+                                .box {
+                                    padding: 2rem 0;
+                                    position: relative;
+                                    left: 54%;
+                                    transform: translateX(-50%);
+
+                                    .foto {
+                                        width: 60%;
+                                        margin: auto;
+
+                                    }
+
+                                    .textmini {
+                                        margin: auto;
+                                        width: 100%;
+
+                                        h5 {
+                                            color: white;
+                                            padding: 10px 0 15px;
+                                        }
+
+                                        p {
+                                            color: #DFE5E6;
+                                            width: 95%;
+                                            margin: auto;
+                                            font-size: 1rem;
+                                            margin: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #five {
+                padding: 7rem 0 10rem;
+
+                .fivemini {
+                    width: 100%;
+                    margin: auto;
+
+                    .fivebox {
+                        .boxes {
+                            .boxin {
+                                position: relative;
+                                overflow: hidden;
+                                background-image: url('/img/Rectangle\ 7.png');
+                                background-size: cover;
+                                background-position: center;
+                                padding: 4rem 0;
+                                width: 100%;
+
+                                .boxmini {
+                                    gap: 20px;
+                                    padding: 1.5rem 0 0;
+                                    width: 90%;
+                                    position: relative;
+                                    left: 48%;
+                                    transform: translateX(-50%);
+                                    margin: auto;
+                                    flex-direction: column;
+                                    align-items: center;
+
+                                    .boox1 {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 100%;
+                                        height: 60vh;
+                                        position: relative;
+                                        background: #06942A;
+
+                                        .text2 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+                                            background: #06942A;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding: 10px 0 15px;
+                                                width: 70%;
+                                                margin: auto;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: white;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 2rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                background-color: white;
+                                                color: #06942A;
+                                            }
+                                        }
+                                    }
+
+                                    .boox {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 100%;
+                                        height: 60vh;
+                                        position: relative;
+                                        background-color: black;
+
+
+                                        .text1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding: 10px 0 15px;
+                                                width: 70%;
+                                                margin: auto;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: #34C759;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 3rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                color: #34C759;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 75%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        padding: 5px 0 25px;
+                                    }
+
+                                    a {
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        border-radius: 25px;
+                                        border: 1px solid #34C759;
+                                        padding: 10px 15px;
+                                        color: #34C759;
+                                    }
+                                }
+                            }
+
+                            .box {
+                                padding: 4rem 0;
+
+                                .boxmini {
+                                    gap: 20px;
+                                    padding: 1.5rem 0 0;
+
+                                    .boox1 {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background: #06942A;
+
+                                        .text2 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+                                            background: #06942A;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding-top: 5px;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: white;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 2rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                background-color: white;
+                                                color: #06942A;
+                                            }
+                                        }
+                                    }
+
+                                    .boox {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 65vh;
+                                        position: relative;
+                                        background-color: black;
+
+
+                                        .text1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding-top: 10px;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: #34C759;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 3rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                color: #34C759;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    margin: auto;
+                                    width: 90%;
+
+                                    h6 {
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 100%;
+                                        font-size: 2.6rem;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        padding: 5px 0 25px;
+                                        width: 80%;
+                                    }
+
+                                    a {
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        border-radius: 25px;
+                                        border: 1px solid #34C759;
+                                        padding: 10px 15px;
+                                        color: #34C759;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #end {
+                padding: 10rem 0 5rem;
+                position: relative;
+                overflow: hidden;
+                background-image: url('/img/contact\ \(3\).png');
+                background-size: cover;
+                background-position: center;
+
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .endbox {
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+
+                    .endtext {
+                        h1 {
+                            color: white;
+                            font-weight: bold;
+                            padding-bottom: 5px;
+                        }
+
+                        p {
+                            color: #DFE5E6;
+                            width: 45%;
+                            margin: auto;
+                        }
+
+                        a {
+                            margin-top: 2rem;
+                            display: inline-block;
+                            text-decoration: none;
+                            border-radius: 25px;
+                            padding: 11px 30px;
+                            background-color: white;
+                            color: #06942A;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media(min-width:600px) and (max-width:768px) {
+    #home {
+        background-color: black;
+
+        .home-mini {
+            #one {
+                overflow: hidden;
+
+                .home-minibox {
+
+                    .left {
+                        position: relative;
+
+                        .textbox {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 70%;
+
+                            .textmini {
+                                h1 {
+                                    color: white;
+                                    font-size: Montserrat;
+                                    font-weight: 800;
+                                    font-size: 1.6rem;
+                                    width: 100%;
+                                }
+
+                                h5 {
+                                    padding: 20px 0 10px;
+                                    color: white;
+                                    font-size: 18px;
+                                    width: 100%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    font-size: 13px;
+                                }
+
+                                a {
+                                    margin: 0rem 0;
+                                    display: inline-block;
+                                    padding: 10px 20px;
+                                    background: #34C759;
+                                    color: white;
+                                    text-decoration: none;
+                                    border-radius: 25px;
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        .rightbox {
+                            .imgr {
+                                width: 100%;
+                                height: 100%;
+                                position: relative;
+                                right: -50px;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #coin {
+                padding: 0 0 2rem;
+
+                .coin-box {
+                    display: grid;
+                    place-items: end;
+                    width: 95%;
+
+                    .coin-boxmini {
+                        width: 80%;
+                        background: #232324;
+                        border-radius: 20px;
+                        padding: 10px 0;
+
+                        .boxmini {
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                list-style: none;
+
+                                li {
+                                    img {
+                                        position: relative;
+                                        right: 25px;
+                                        top: 5px;
+                                    }
+
+                                    h5 {
+                                        color: gray;
+                                    }
+
+                                    span {
+                                        color: green;
+                                    }
+
+                                    p {
+                                        color: white;
+                                        font-weight: bold;
+                                        font-size: 18px;
+                                    }
+
+                                    .boxp {
+                                        color: green;
+                                        font-weight: bold;
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .one {
+                            position: relative;
+                            left: 0px;
+
+                            .boxminil {
+
+                                ul {
+                                    list-style: none;
+
+                                    li {
+                                        h5 {
+                                            color: white;
+                                        }
+                                    }
+                                }
+
+                                h6 {
+                                    color: gray;
+                                    font-weight: bold;
+                                    font-size: 1rem;
+                                }
+                            }
+
+                            .logo2 {
+                                background-color: #33875A26;
+                                width: 70px;
+                                height: 70px;
+                                border-radius: 50%;
+                                display: grid;
+                                place-items: center;
+
+                                img {
+                                    width: 70%;
+                                    height: auto;
+                                    border-radius: 50%;
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+            }
+
+            #three {
+                padding: 4rem 0;
+
+                .thre-mini {
+                    .right {
+                        display: grid;
+                        place-items: center;
+
+                        .rightmini {
+                            h5 {
+                                color: #34C759;
+                            }
+
+                            h1 {
+                                color: white;
+                                width: 70%;
+                            }
+
+                            p {
+                                color: gray;
+                                width: 90%;
+                                padding: 10px 0 30px;
+                            }
+
+                            a {
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #34C759;
+                                border: 2px solid #34C759;
+                                border-radius: 30px;
+                                padding: 10px 15px;
+                            }
+                        }
+                    }
+
+                    .left {
+                        .threeimg {
+                            width: 90%;
+
+                            img {
+                                position: relative;
+                                left: -12px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #foor {
+                overflow: hidden;
+                padding: 2rem 0 5rem;
+
+                .foorbox {
+                    width: 90%;
+                    margin: auto;
+
+                    .foorboxmini {
+                        .textbox {
+                            text-align: center;
+
+                            h3 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                            }
+                        }
+
+                        .rowbox {
+                            padding: 4rem 0 0;
+
+                            .boxes {
+                                .box {
+                                    padding: 2rem 0;
+
+                                    .foto {
+                                        width: 30%;
+                                        margin: auto;
+
+                                    }
+
+                                    .textmini {
+                                        margin: auto;
+
+                                        h5 {
+                                            color: white;
+                                            padding: 10px 0 15px;
+                                        }
+
+                                        p {
+                                            color: #DFE5E6;
+                                            width: 90%;
+                                            margin: auto;
+                                            font-size: 1rem;
+                                            width: 60%;
+                                            margin: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #five {
+                padding: 7rem 0 10rem;
+
+                .fivemini {
+                    width: 100%;
+                    margin: auto;
+
+                    .fivebox {
+                        .boxes {
+                            .boxin {
+                                position: relative;
+                                overflow: hidden;
+                                background-image: url('/img/Rectangle\ 7.png');
+                                background-size: cover;
+                                background-position: center;
+                                padding: 4rem 0;
+
+                                .boxmini {
+                                    gap: 20px;
+                                    padding: 1.5rem 0 0;
+
+                                    .boox1 {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background: #06942A;
+
+                                        .text2 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+                                            background: #06942A;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding: 10px 0 15px;
+                                                width: 70%;
+                                                margin: auto;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: white;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 2rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                background-color: white;
+                                                color: #06942A;
+                                            }
+                                        }
+                                    }
+
+                                    .boox {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background-color: black;
+
+
+                                        .text1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding: 10px 0 15px;
+                                                width: 70%;
+                                                margin: auto;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: #34C759;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 3rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                color: #34C759;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 75%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        padding: 5px 0 25px;
+                                    }
+
+                                    a {
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        border-radius: 25px;
+                                        border: 1px solid #34C759;
+                                        padding: 10px 15px;
+                                        color: #34C759;
+                                    }
+                                }
+                            }
+
+                            .box {
+                                padding: 4rem 0;
+
+                                .boxmini {
+                                    gap: 20px;
+                                    padding: 1.5rem 0 0;
+
+                                    .boox1 {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background: #06942A;
+
+                                        .text2 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+                                            background: #06942A;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding-top: 5px;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: white;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 2rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                background-color: white;
+                                                color: #06942A;
+                                            }
+                                        }
+                                    }
+
+                                    .boox {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 65vh;
+                                        position: relative;
+                                        background-color: black;
+
+
+                                        .text1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding-top: 10px;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: #34C759;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 3rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                color: #34C759;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    margin: auto;
+                                    width: 80%;
+
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 75%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        padding: 5px 0 25px;
+                                        width: 80%;
+                                    }
+
+                                    a {
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        border-radius: 25px;
+                                        border: 1px solid #34C759;
+                                        padding: 10px 15px;
+                                        color: #34C759;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #end {
+                padding: 10rem 0 5rem;
+                position: relative;
+                overflow: hidden;
+                background-image: url('/img/contact\ \(3\).png');
+                background-size: cover;
+                background-position: center;
+
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .endbox {
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+
+                    .endtext {
+                        h1 {
+                            color: white;
+                            font-weight: bold;
+                            padding-bottom: 5px;
+                        }
+
+                        p {
+                            color: #DFE5E6;
+                            width: 45%;
+                            margin: auto;
+                        }
+
+                        a {
+                            margin-top: 2rem;
+                            display: inline-block;
+                            text-decoration: none;
+                            border-radius: 25px;
+                            padding: 11px 30px;
+                            background-color: white;
+                            color: #06942A;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    #home {
+        background-color: black;
+
+        .home-mini {
+            #one {
+                overflow: hidden;
+
+                .home-minibox {
+
+                    .left {
+                        position: relative;
+
+                        .textbox {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 70%;
+
+                            .textmini {
+                                h1 {
+                                    color: white;
+                                    font-size: Montserrat;
+                                    font-weight: 800;
+                                    font-size: 1.6rem;
+                                    width: 100%;
+                                }
+
+                                h5 {
+                                    padding: 20px 0 10px;
+                                    color: white;
+                                    font-size: 18px;
+                                    width: 100%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    font-size: 13px;
+                                }
+
+                                a {
+                                    margin: 0rem 0;
+                                    display: inline-block;
+                                    padding: 10px 20px;
+                                    background: #34C759;
+                                    color: white;
+                                    text-decoration: none;
+                                    border-radius: 25px;
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        .rightbox {
+                            .imgr {
+                                width: 100%;
+                                height: 100%;
+                                position: relative;
+                                right: -50px;
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #coin {
+                padding: 0 0 2rem;
+
+                .coin-box {
+                    display: grid;
+                    place-items: end;
+                    width: 95%;
+
+                    .coin-boxmini {
+                        width: 80%;
+                        background: #232324;
+                        border-radius: 20px;
+                        padding: 10px 0;
+
+                        .boxmini {
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                list-style: none;
+
+                                li {
+                                    img {
+                                        position: relative;
+                                        right: 25px;
+                                        top: 5px;
+                                    }
+
+                                    h5 {
+                                        color: gray;
+                                    }
+
+                                    span {
+                                        color: green;
+                                    }
+
+                                    p {
+                                        color: white;
+                                        font-weight: bold;
+                                        font-size: 18px;
+                                    }
+
+                                    .boxp {
+                                        color: green;
+                                        font-weight: bold;
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .one {
+                            position: relative;
+                            left: 0px;
+
+                            .boxminil {
+
+                                ul {
+                                    list-style: none;
+
+                                    li {
+                                        h5 {
+                                            color: white;
+                                        }
+                                    }
+                                }
+
+                                h6 {
+                                    color: gray;
+                                    font-weight: bold;
+                                    font-size: 1rem;
+                                }
+                            }
+
+                            .logo2 {
+                                background-color: #33875A26;
+                                width: 70px;
+                                height: 70px;
+                                border-radius: 50%;
+                                display: grid;
+                                place-items: center;
+
+                                img {
+                                    width: 70%;
+                                    height: auto;
+                                    border-radius: 50%;
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+            }
+
+            #three {
+                padding: 4rem 0;
+
+                .thre-mini {
+                    .right {
+                        display: grid;
+                        place-items: center;
+
+                        .rightmini {
+                            h5 {
+                                color: #34C759;
+                            }
+
+                            h1 {
+                                color: white;
+                                width: 70%;
+                            }
+
+                            p {
+                                color: gray;
+                                width: 90%;
+                                padding: 10px 0 30px;
+                            }
+
+                            a {
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #34C759;
+                                border: 2px solid #34C759;
+                                border-radius: 30px;
+                                padding: 10px 15px;
+                            }
+                        }
+                    }
+
+                    .left {
+                        .threeimg {
+                            width: 90%;
+
+                            img {
+                                position: relative;
+                                left: -12px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #foor {
+                overflow: hidden;
+                padding: 2rem 0 5rem;
+
+                .foorbox {
+                    width: 90%;
+                    margin: auto;
+
+                    .foorboxmini {
+                        .textbox {
+                            text-align: center;
+
+                            h3 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                            }
+                        }
+
+                        .rowbox {
+                            padding: 4rem 0 0;
+
+                            .boxes {
+                                .box {
+                                    padding: 2rem 0;
+
+                                    .foto {
+                                        width: 30%;
+                                        margin: auto;
+
+                                    }
+
+                                    .textmini {
+                                        margin: auto;
+
+                                        h5 {
+                                            color: white;
+                                            padding: 10px 0 15px;
+                                        }
+
+                                        p {
+                                            color: #DFE5E6;
+                                            width: 90%;
+                                            margin: auto;
+                                            font-size: 1rem;
+                                            width: 60%;
+                                            margin: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #five {
+                padding: 7rem 0 10rem;
+
+                .fivemini {
+                    width: 100%;
+                    margin: auto;
+
+                    .fivebox {
+                        .boxes {
+                            .boxin {
+                                position: relative;
+                                overflow: hidden;
+                                background-image: url('/img/Rectangle\ 7.png');
+                                background-size: cover;
+                                background-position: center;
+                                padding: 4rem 0;
+
+                                .boxmini {
+                                    gap: 20px;
+                                    padding: 1.5rem 0 0;
+
+                                    .boox1 {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background: #06942A;
+
+                                        .text2 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+                                            background: #06942A;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding: 10px 0 15px;
+                                                width: 70%;
+                                                margin: auto;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: white;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 2rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                background-color: white;
+                                                color: #06942A;
+                                            }
+                                        }
+                                    }
+
+                                    .boox {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background-color: black;
+
+
+                                        .text1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding: 10px 0 15px;
+                                                width: 70%;
+                                                margin: auto;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: #34C759;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 3rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                color: #34C759;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 75%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        padding: 5px 0 25px;
+                                    }
+
+                                    a {
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        border-radius: 25px;
+                                        border: 1px solid #34C759;
+                                        padding: 10px 15px;
+                                        color: #34C759;
+                                    }
+                                }
+                            }
+
+                            .box {
+                                padding: 4rem 0;
+
+                                .boxmini {
+                                    gap: 20px;
+                                    padding: 1.5rem 0 0;
+
+                                    .boox1 {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 40vh;
+                                        position: relative;
+                                        background: #06942A;
+
+                                        .text2 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+                                            background: #06942A;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding-top: 5px;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: white;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 2rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                background-color: white;
+                                                color: #06942A;
+                                            }
+                                        }
+                                    }
+
+                                    .boox {
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        width: 40%;
+                                        height: 65vh;
+                                        position: relative;
+                                        background-color: black;
+
+
+                                        .text1 {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            text-align: center;
+                                            width: 100%;
+
+                                            .p1 {
+                                                color: white;
+                                            }
+
+                                            .plorem {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+                                                padding-top: 10px;
+                                            }
+
+                                            span {
+                                                font-size: 3rem;
+                                                font-weight: bold;
+                                                color: white;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                    font-weight: bold;
+                                                }
+                                            }
+
+                                            h6 {
+                                                color: #DFE5E6;
+                                                font-weight: 300;
+                                                font-size: 1rem;
+
+                                                i {
+                                                    color: #34C759;
+                                                    padding-right: 8px;
+                                                }
+
+                                            }
+
+                                            a {
+                                                margin-top: 3rem;
+                                                display: inline-block;
+                                                text-decoration: none;
+                                                border-radius: 25px;
+                                                border: 1px solid #34C759;
+                                                padding: 10px 30px;
+                                                color: #34C759;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .text {
+                                    margin: auto;
+                                    width: 80%;
+
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 75%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        padding: 5px 0 25px;
+                                        width: 80%;
+                                    }
+
+                                    a {
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        border-radius: 25px;
+                                        border: 1px solid #34C759;
+                                        padding: 10px 15px;
+                                        color: #34C759;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #end {
+                padding: 10rem 0 5rem;
+                position: relative;
+                overflow: hidden;
+                background-image: url('/img/contact\ \(3\).png');
+                background-size: cover;
+                background-position: center;
+
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .endbox {
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+
+                    .endtext {
+                        h1 {
+                            color: white;
+                            font-weight: bold;
+                            padding-bottom: 5px;
+                        }
+
+                        p {
+                            color: #DFE5E6;
+                            width: 45%;
+                            margin: auto;
+                        }
+
+                        a {
+                            margin-top: 2rem;
+                            display: inline-block;
+                            text-decoration: none;
+                            border-radius: 25px;
+                            padding: 11px 30px;
+                            background-color: white;
+                            color: #06942A;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
