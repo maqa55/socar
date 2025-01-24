@@ -1205,23 +1205,24 @@
   }
   #home .home-mini #foor {
     overflow: hidden;
-    padding: 2rem 0 5rem;
+    padding: 4rem 0 1rem;
   }
   #home .home-mini #foor .foorbox {
     width: 90%;
     margin: auto;
   }
   #home .home-mini #foor .foorbox .foorboxmini .textbox {
-    text-align: center;
+    text-align: start;
   }
   #home .home-mini #foor .foorbox .foorboxmini .textbox h3 {
     color: #34C759;
   }
   #home .home-mini #foor .foorbox .foorboxmini .textbox h2 {
     color: white;
+    font-size: 2.8rem;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox {
-    padding: 4rem 0 0;
+    padding: 2rem 0 0;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box {
     padding: 2rem 0;
@@ -1249,20 +1250,24 @@
     margin: auto;
   }
   #home .home-mini #five {
-    padding: 7rem 0 10rem;
+    padding: 1rem 0 4rem;
   }
   #home .home-mini #five .fivemini {
     width: 100%;
     margin: auto;
   }
-  #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+  #home .home-mini #five .fivemini .fivebox {
     position: relative;
     overflow: hidden;
     background-image: url("/img/Rectangle 7.png");
-    background-size: cover;
-    background-position: center;
-    padding: 4rem 0;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: center 100px;
+  }
+  #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+    padding: 0rem 0 4rem;
     width: 100%;
+    background-image: none;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini {
     gap: 20px;
@@ -1294,22 +1299,23 @@
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 .p1 {
     color: white;
+    font-size: 18px;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 .plorem {
     color: #DFE5E6;
     font-weight: 300;
     font-size: 1rem;
     padding: 10px 0 15px;
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 span {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
     color: white;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 span small {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 h6 {
@@ -1327,7 +1333,7 @@
     text-decoration: none;
     border-radius: 25px;
     border: 1px solid #34C759;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: white;
     color: #06942A;
   }
@@ -1349,6 +1355,7 @@
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 .p1 {
     color: white;
+    font-size: 18px;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 .plorem {
     color: #DFE5E6;
@@ -1359,12 +1366,12 @@
     margin: auto;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 span {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
     color: white;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 span small {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 h6 {
@@ -1382,7 +1389,7 @@
     text-decoration: none;
     border-radius: 25px;
     border: 1px solid #34C759;
-    padding: 10px 30px;
+    padding: 15px 30px;
     color: #34C759;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .text h6 {
@@ -1545,7 +1552,7 @@
     color: #34C759;
   }
   #home .home-mini #end {
-    padding: 10rem 0 5rem;
+    padding: 1rem 0 5rem;
     position: relative;
     overflow: hidden;
     background-image: url("/img/contact (3).png");
@@ -1566,18 +1573,24 @@
     color: white;
     font-weight: bold;
     padding-bottom: 5px;
+    font-size: 2.8rem;
+    text-align: start;
+    width: 90%;
+    margin-left: 20px;
   }
   #home .home-mini #end .endbox .endtext p {
     color: #DFE5E6;
-    width: 45%;
-    margin: auto;
+    text-align: start;
+    width: 70%;
+    font-size: 17px;
+    margin-left: 20px;
   }
   #home .home-mini #end .endbox .endtext a {
     margin-top: 2rem;
     display: inline-block;
     text-decoration: none;
     border-radius: 25px;
-    padding: 11px 30px;
+    padding: 15px 10rem;
     background-color: white;
     color: #06942A;
   }
@@ -1636,7 +1649,7 @@
     height: auto;
   }
   #home .home-mini #coin {
-    padding: 0 0 2rem;
+    padding: 2rem 0 1rem !important;
   }
   #home .home-mini #coin .coin-box {
     display: grid;
@@ -1740,7 +1753,7 @@
   }
   #home .home-mini #foor {
     overflow: hidden;
-    padding: 2rem 0 5rem;
+    padding: 2rem 0 1rem !important;
   }
   #home .home-mini #foor .foorbox {
     width: 90%;
@@ -1756,10 +1769,10 @@
     color: white;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox {
-    padding: 4rem 0 0;
+    padding: 1rem 0 0 !important;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box {
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .foto {
     width: 30%;
@@ -1781,7 +1794,7 @@
     margin: auto;
   }
   #home .home-mini #five {
-    padding: 7rem 0 10rem;
+    padding: 3rem 0 7rem !important;
   }
   #home .home-mini #five .fivemini {
     width: 100%;
@@ -1793,11 +1806,11 @@
     background-image: url("/img/Rectangle 7.png");
     background-size: cover;
     background-position: center;
-    padding: 4rem 0;
+    padding: 1rem 0 !important;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini {
     gap: 20px;
-    padding: 1.5rem 0 0;
+    padding: 1rem 0 0 !important;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 {
     border: 1px solid #34C759;
@@ -2066,7 +2079,7 @@
     color: #34C759;
   }
   #home .home-mini #end {
-    padding: 10rem 0 5rem;
+    padding: 4rem 0 !important;
     position: relative;
     overflow: hidden;
     background-image: url("/img/contact (3).png");
@@ -2098,7 +2111,7 @@
     display: inline-block;
     text-decoration: none;
     border-radius: 25px;
-    padding: 11px 30px;
+    padding: 15px 40px !important;
     background-color: white;
     color: #06942A;
   }
@@ -2157,7 +2170,7 @@
     height: auto;
   }
   #home .home-mini #coin {
-    padding: 0 0 2rem;
+    padding: 2rem 0 1rem !important;
   }
   #home .home-mini #coin .coin-box {
     display: grid;
@@ -2261,7 +2274,7 @@
   }
   #home .home-mini #foor {
     overflow: hidden;
-    padding: 2rem 0 5rem;
+    padding: 2rem 0 1rem !important;
   }
   #home .home-mini #foor .foorbox {
     width: 90%;
@@ -2277,10 +2290,10 @@
     color: white;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox {
-    padding: 4rem 0 0;
+    padding: 1rem 0 0 !important;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box {
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .foto {
     width: 30%;
@@ -2302,7 +2315,7 @@
     margin: auto;
   }
   #home .home-mini #five {
-    padding: 7rem 0 10rem;
+    padding: 3rem 0 7rem !important;
   }
   #home .home-mini #five .fivemini {
     width: 100%;
@@ -2314,11 +2327,11 @@
     background-image: url("/img/Rectangle 7.png");
     background-size: cover;
     background-position: center;
-    padding: 4rem 0;
+    padding: 1rem 0 !important;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini {
     gap: 20px;
-    padding: 1.5rem 0 0;
+    padding: 1rem 0 0 !important;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 {
     border: 1px solid #34C759;
@@ -2587,7 +2600,7 @@
     color: #34C759;
   }
   #home .home-mini #end {
-    padding: 10rem 0 5rem;
+    padding: 4rem 0 !important;
     position: relative;
     overflow: hidden;
     background-image: url("/img/contact (3).png");
@@ -2619,9 +2632,697 @@
     display: inline-block;
     text-decoration: none;
     border-radius: 25px;
-    padding: 11px 30px;
+    padding: 15px 40px !important;
     background-color: white;
     color: #06942A;
+  }
+}
+#about {
+  background-color: black;
+}
+#about .about-mini #one {
+  padding: 2rem 0 1rem;
+}
+#about .about-mini #one .box {
+  padding: 1rem 0;
+}
+#about .about-mini #one .box .text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+}
+#about .about-mini #one .box .text h6 {
+  width: 35%;
+  margin: auto;
+  padding: 10px 0 15px;
+  color: white;
+}
+#about .about-mini #one .box .text p {
+  font-size: 14px;
+  color: #DFE5E6;
+}
+#about .about-mini #one .minione {
+  padding: 2rem 0;
+}
+#about .about-mini #one .minione .rowbox .left .foto {
+  display: grid;
+  place-items: center;
+}
+#about .about-mini #one .minione .rowbox .right {
+  display: grid;
+  place-items: center;
+}
+#about .about-mini #one .minione .rowbox .right .textbox .mini h6 {
+  color: #34C759;
+}
+#about .about-mini #one .minione .rowbox .right .textbox .mini h1 {
+  color: white;
+  width: 60%;
+}
+#about .about-mini #one .minione .rowbox .right .textbox .mini p {
+  color: #DFE5E6;
+  width: 80%;
+}
+#about .about-mini #two .minitwo {
+  width: 85%;
+  margin: auto;
+}
+#about .about-mini #two .minitwo .tworow .left {
+  display: grid;
+  place-items: center;
+}
+#about .about-mini #two .minitwo .tworow .left .text h6 {
+  color: #34C759;
+}
+#about .about-mini #two .minitwo .tworow .left .text h2 {
+  color: white;
+  font-size: 2rem;
+  width: 60%;
+}
+#about .about-mini #two .minitwo .tworow .left .text p {
+  color: #DFE5E6;
+  width: 90%;
+  padding-top: 10px;
+}
+#about .about-mini #two .minitwo .tworow .right .photo {
+  width: 90%;
+}
+#about .about-mini #three {
+  padding: 10rem 0 1rem;
+}
+#about .about-mini #three .threemini {
+  width: 85%;
+  margin: auto;
+}
+#about .about-mini #three .threemini .threerow .left .textbox h6 {
+  color: #34C759;
+}
+#about .about-mini #three .threemini .threerow .left .textbox h2 {
+  color: white;
+  width: 70%;
+}
+#about .about-mini #three .threemini .threerow .left .textbox p {
+  color: #DFE5E6;
+  width: 80%;
+}
+#about .about-mini #three .threemini .threerow .right {
+  background-image: url("/img/Rectangle 7.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+#about .about-mini #three .threemini .threerow .right .rightmini .bigbox {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes {
+  display: grid;
+  place-items: center;
+  width: 40%;
+  border: 1px solid #34C759;
+  border-radius: 10px;
+  height: 25vh;
+  background-color: black;
+}
+#about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox {
+  text-align: center;
+}
+#about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox h6 {
+  color: white;
+  font-size: 13px;
+}
+#about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+#about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span small {
+  font-size: 2rem;
+}
+#about .about-mini #foor {
+  overflow: hidden;
+  padding: 13rem 0;
+}
+#about .about-mini #foor .foorbox {
+  width: 90%;
+  margin: auto;
+}
+#about .about-mini #foor .foorbox .foorboxmini .textbox {
+  text-align: center;
+}
+#about .about-mini #foor .foorbox .foorboxmini .textbox h3 {
+  color: #34C759;
+}
+#about .about-mini #foor .foorbox .foorboxmini .textbox h2 {
+  color: white;
+}
+#about .about-mini #foor .foorbox .foorboxmini .rowbox {
+  padding: 4rem 0 0;
+}
+#about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .foto {
+  width: 50%;
+  margin: auto;
+}
+#about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini h5 {
+  color: white;
+  padding: 10px 0 15px;
+}
+#about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini p {
+  color: #DFE5E6;
+  width: 90%;
+  margin: auto;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  #about {
+    background-color: black;
+    overflow: hidden;
+  }
+  #about .about-mini #one {
+    padding: 2rem 0 1rem;
+  }
+  #about .about-mini #one .box {
+    padding: 4rem 0 0;
+  }
+  #about .about-mini #one .box .text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  #about .about-mini #one .box .text h6 {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0 15px;
+    color: white;
+  }
+  #about .about-mini #one .box .text p {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    color: #DFE5E6;
+  }
+  #about .about-mini #one .minione {
+    padding: 1rem 0;
+  }
+  #about .about-mini #one .minione .rowbox .left .foto {
+    display: grid;
+    place-items: start;
+    width: 100%;
+  }
+  #about .about-mini #one .minione .rowbox .right {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox {
+    width: 90%;
+    margin: auto;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini h6 {
+    color: #34C759;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini h1 {
+    color: white;
+    width: 60%;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini p {
+    color: #DFE5E6;
+    width: 100%;
+  }
+  #about .about-mini #two .minitwo {
+    width: 90%;
+    margin: auto;
+  }
+  #about .about-mini #two .minitwo .tworow .left {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text h6 {
+    color: #34C759;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text h2 {
+    color: white;
+    font-size: 2rem;
+    width: 90%;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text p {
+    color: #DFE5E6;
+    width: 100%;
+    padding-top: 10px;
+  }
+  #about .about-mini #two .minitwo .tworow .right .photo {
+    margin: auto;
+    width: 100%;
+  }
+  #about .about-mini #three {
+    padding: 7rem 0 1rem;
+  }
+  #about .about-mini #three .threemini {
+    width: 85%;
+    margin: auto;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox h6 {
+    color: #34C759;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox h2 {
+    color: white;
+    width: 90%;
+    font-size: 2.2rem;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox p {
+    color: #DFE5E6;
+    width: 90%;
+  }
+  #about .about-mini #three .threemini .threerow .right {
+    padding: 2rem 0 0;
+    background-image: url("/img/Rectangle 7.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 57%;
+    transform: translateX(-50%);
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes {
+    display: grid;
+    place-items: center;
+    width: 40%;
+    border: 1px solid #34C759;
+    border-radius: 10px;
+    height: 25vh;
+    background-color: black;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox {
+    text-align: center;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox h6 {
+    color: white;
+    font-size: 13px;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span small {
+    font-size: 2rem;
+  }
+  #about .about-mini #foor {
+    overflow: hidden;
+    padding: 4rem 0 1rem;
+  }
+  #about .about-mini #foor .foorbox {
+    width: 90%;
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox {
+    text-align: start;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox h3 {
+    color: #34C759;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox h2 {
+    color: white;
+    font-size: 2.5rem;
+    width: 80%;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox {
+    padding: 2rem 0 0;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box {
+    padding: 2rem 0;
+    position: relative;
+    left: 54%;
+    transform: translateX(-50%);
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .foto {
+    width: 60%;
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini {
+    margin: auto;
+    width: 100%;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini h5 {
+    color: white;
+    padding: 10px 0 15px;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini p {
+    color: #DFE5E6;
+    width: 95%;
+    margin: auto;
+    font-size: 1rem;
+    margin: auto;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  #about {
+    background-color: black;
+  }
+  #about .about-mini #one {
+    padding: 2rem 0 1rem;
+  }
+  #about .about-mini #one .box {
+    padding: 1rem 0;
+  }
+  #about .about-mini #one .box .text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  #about .about-mini #one .box .text h6 {
+    width: 60%;
+    margin: auto;
+    padding: 10px 0 15px;
+    color: white;
+  }
+  #about .about-mini #one .box .text p {
+    font-size: 14px;
+    color: #DFE5E6;
+  }
+  #about .about-mini #one .minione {
+    padding: 2rem 0;
+  }
+  #about .about-mini #one .minione .rowbox .left {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #one .minione .rowbox .right {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini h6 {
+    color: #34C759;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini h1 {
+    color: white;
+    width: 90%;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini p {
+    color: #DFE5E6;
+    width: 100%;
+  }
+  #about .about-mini #two .minitwo {
+    width: 85%;
+    margin: auto;
+  }
+  #about .about-mini #two .minitwo .tworow .left {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text h6 {
+    color: #34C759;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text h2 {
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text p {
+    color: #DFE5E6;
+    width: 100%;
+    padding-top: 10px;
+  }
+  #about .about-mini #two .minitwo .tworow .right {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #two .minitwo .tworow .right .photo {
+    width: 100%;
+  }
+  #about .about-mini #three {
+    padding: 10rem 0 1rem;
+  }
+  #about .about-mini #three .threemini {
+    width: 85%;
+    margin: auto;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox h6 {
+    color: #34C759;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox h2 {
+    color: white;
+    width: 80%;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox p {
+    color: #DFE5E6;
+    width: 100% !important;
+  }
+  #about .about-mini #three .threemini .threerow .right {
+    background-image: url("/img/Rectangle 7.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes {
+    display: grid;
+    place-items: center;
+    width: 45%;
+    border: 1px solid #34C759;
+    border-radius: 10px;
+    height: 18vh;
+    background-color: black;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox {
+    text-align: center;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox h6 {
+    color: white;
+    font-size: 13px;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span small {
+    font-size: 2rem;
+  }
+  #about .about-mini #foor {
+    overflow: hidden;
+    padding: 6rem 0 7rem;
+  }
+  #about .about-mini #foor .foorbox {
+    width: 90%;
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox {
+    text-align: center;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox h3 {
+    color: #34C759;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox h2 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox {
+    padding: 1rem 0 0 !important;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box {
+    padding: 1rem 0;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .foto {
+    width: 30%;
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini {
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini h5 {
+    color: white;
+    padding: 10px 0 15px;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini p {
+    color: #DFE5E6;
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+    width: 60%;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #about {
+    background-color: black;
+  }
+  #about .about-mini #one {
+    padding: 2rem 0 1rem;
+  }
+  #about .about-mini #one .box {
+    padding: 1rem 0;
+  }
+  #about .about-mini #one .box .text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  #about .about-mini #one .box .text h6 {
+    width: 60%;
+    margin: auto;
+    padding: 10px 0 15px;
+    color: white;
+  }
+  #about .about-mini #one .box .text p {
+    font-size: 14px;
+    color: #DFE5E6;
+  }
+  #about .about-mini #one .minione {
+    padding: 2rem 0;
+  }
+  #about .about-mini #one .minione .rowbox .left {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #one .minione .rowbox .right {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini h6 {
+    color: #34C759;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini h1 {
+    color: white;
+    width: 90%;
+  }
+  #about .about-mini #one .minione .rowbox .right .textbox .mini p {
+    color: #DFE5E6;
+    width: 100%;
+  }
+  #about .about-mini #two .minitwo {
+    width: 85%;
+    margin: auto;
+  }
+  #about .about-mini #two .minitwo .tworow .left {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text h6 {
+    color: #34C759;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text h2 {
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+  }
+  #about .about-mini #two .minitwo .tworow .left .text p {
+    color: #DFE5E6;
+    width: 100%;
+    padding-top: 10px;
+  }
+  #about .about-mini #two .minitwo .tworow .right {
+    display: grid;
+    place-items: center;
+  }
+  #about .about-mini #two .minitwo .tworow .right .photo {
+    width: 100%;
+  }
+  #about .about-mini #three {
+    padding: 10rem 0 1rem;
+  }
+  #about .about-mini #three .threemini {
+    width: 85%;
+    margin: auto;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox h6 {
+    color: #34C759;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox h2 {
+    color: white;
+    width: 80%;
+  }
+  #about .about-mini #three .threemini .threerow .left .textbox p {
+    color: #DFE5E6;
+    width: 90%;
+  }
+  #about .about-mini #three .threemini .threerow .right {
+    background-image: url("/img/Rectangle 7.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes {
+    display: grid;
+    place-items: center;
+    width: 45%;
+    border: 1px solid #34C759;
+    border-radius: 10px;
+    height: 18vh;
+    background-color: black;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox {
+    text-align: center;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox h6 {
+    color: white;
+    font-size: 13px;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span small {
+    font-size: 2rem;
+  }
+  #about .about-mini #foor {
+    overflow: hidden;
+    padding: 6rem 0 7rem;
+  }
+  #about .about-mini #foor .foorbox {
+    width: 90%;
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox {
+    text-align: center;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox h3 {
+    color: #34C759;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .textbox h2 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox {
+    padding: 1rem 0 0 !important;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box {
+    padding: 1rem 0;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .foto {
+    width: 30%;
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini {
+    margin: auto;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini h5 {
+    color: white;
+    padding: 10px 0 15px;
+  }
+  #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini p {
+    color: #DFE5E6;
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+    width: 60%;
+    margin: auto;
   }
 }
 #contact {

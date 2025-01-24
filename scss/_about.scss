@@ -1,21 +1,988 @@
+#about {
+    background-color: black;
 
+    .about-mini {
+        #one {
+            padding: 2rem 0 1rem;
 
+            .box {
+                padding: 1rem 0;
 
+                .text {
+                    h1 {
+                        font-size: 3.5rem;
+                        font-weight: bold;
+                        color: white;
+                    }
 
+                    h6 {
+                        width: 35%;
+                        margin: auto;
+                        padding: 10px 0 15px;
+                        color: white;
+                    }
 
+                    p {
+                        font-size: 14px;
+                        color: #DFE5E6;
 
+                    }
+                }
+            }
 
+            .minione {
+                padding: 2rem 0;
 
+                .rowbox {
+                    .left {
+                        .foto {
+                            display: grid;
+                            place-items: center;
+                        }
+                    }
 
+                    .right {
+                        display: grid;
+                        place-items: center;
+
+                        .textbox {
+
+                            .mini {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h1 {
+                                    color: white;
+                                    width: 60%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 80%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #two {
+            .minitwo {
+                width: 85%;
+                margin: auto;
+
+                .tworow {
+                    .left {
+                        display: grid;
+                        place-items: center;
+
+                        .text {
+                            h6 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                                font-size: 2rem;
+                                width: 60%;
+                            }
+
+                            p {
+                                color: #DFE5E6;
+                                width: 90%;
+                                padding-top: 10px;
+                            }
+                        }
+                    }
+
+                    .right {
+                        .photo {
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+        }
+
+        #three {
+            padding: 10rem 0 1rem;
+
+            .threemini {
+                width: 85%;
+                margin: auto;
+
+                .threerow {
+                    .left {
+                        .textbox {
+                            h6 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                                width: 70%;
+                            }
+
+                            p {
+                                color: #DFE5E6;
+                                width: 80%;
+                            }
+                        }
+                    }
+
+                    .right {
+                        background-image: url('/img/Rectangle\ 7.png') ;
+                        background-size: 500px;
+                        background-repeat: no-repeat;
+
+                        .rightmini {
+                            .bigbox {
+                                display: flex;
+                                width: 100%;
+                                gap: 20px;
+                                flex-wrap: wrap;
+
+                                .boxes {
+                                    display: grid;
+                                    place-items: center;
+                                    width: 40%;
+                                    border: 1px solid #34C759;
+                                    border-radius: 10px;
+                                    height: 25vh;
+                                    background-color: black;
+
+                                    .minibox {
+                                        text-align: center;
+
+                                        h6 {
+                                            color: white;
+                                            font-size: 13px;
+                                        }
+
+                                        span {
+                                            color: white;
+                                            font-size: 2.8rem;
+                                            font-weight: bold;
+
+                                            small {
+                                                font-size: 2rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #foor {
+            overflow: hidden;
+            padding: 13rem 0;
+
+            .foorbox {
+                width: 90%;
+                margin: auto;
+
+                .foorboxmini {
+                    .textbox {
+                        text-align: center;
+
+                        h3 {
+                            color: #34C759;
+                        }
+
+                        h2 {
+                            color: white;
+                        }
+                    }
+
+                    .rowbox {
+                        padding: 4rem 0 0;
+
+                        .boxes {
+                            .box {
+                                .foto {
+                                    width: 50%;
+                                    margin: auto;
+                                }
+
+                                .textmini {
+                                    h5 {
+                                        color: white;
+                                        padding: 10px 0 15px;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        width: 90%;
+                                        margin: auto;
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media(max-width:600px) {
-    
+    #about {
+        background-color: black;
+        overflow: hidden;
+
+        .about-mini {
+            #one {
+                padding: 2rem 0 1rem;
+
+                .box {
+                    padding: 4rem 0 0;
+
+                    .text {
+                        h1 {
+                            font-size: 2.5rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+
+                        h6 {
+                            width: 90%;
+                            margin: auto;
+                            padding: 10px 0 15px;
+                            color: white;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            width: 80%;
+                            margin: auto;
+                            color: #DFE5E6;
+
+                        }
+                    }
+                }
+
+                .minione {
+                    padding: 1rem 0;
+
+                    .rowbox {
+                        .left {
+                            .foto {
+                                display: grid;
+                                place-items: start;
+                                width: 100%;
+                            }
+                        }
+
+                        .right {
+                            display: grid;
+                            place-items: center;
+
+                            .textbox {
+                                width: 90%;
+                                margin: auto;
+
+                                .mini {
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 60%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #two {
+                .minitwo {
+                    width: 90%;
+                    margin: auto;
+
+                    .tworow {
+                        .left {
+                            display: grid;
+                            place-items: center;
+
+                            .text {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h2 {
+                                    color: white;
+                                    font-size: 2rem;
+                                    width: 90%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 100%;
+                                    padding-top: 10px;
+                                }
+                            }
+                        }
+
+                        .right {
+                            .photo {
+                                margin: auto;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #three {
+                padding: 7rem 0 1rem;
+
+                .threemini {
+                    width: 85%;
+                    margin: auto;
+
+                    .threerow {
+                        .left {
+                            .textbox {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h2 {
+                                    color: white;
+                                    width: 90%;
+                                    font-size: 2.2rem;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 90%;
+                                }
+                            }
+                        }
+
+                        .right {
+                            padding: 2rem 0 0;
+                            background-image: url('/img/Rectangle\ 7.png');
+                            background-size: 400px;
+                            background-repeat: no-repeat;
+                            position: relative;
+                            left: 57%;
+                            transform: translateX(-50%);
+
+                            .rightmini {
+
+
+                                .bigbox {
+                                    display: flex;
+                                    width: 100%;
+                                    gap: 20px;
+                                    flex-wrap: wrap;
+
+                                    .boxes {
+                                        display: grid;
+                                        place-items: center;
+                                        width: 40%;
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        height: 25vh;
+                                        background-color: black;
+
+                                        .minibox {
+                                            text-align: center;
+
+                                            h6 {
+                                                color: white;
+                                                font-size: 13px;
+                                            }
+
+                                            span {
+                                                color: white;
+                                                font-size: 2.8rem;
+                                                font-weight: bold;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #foor {
+                overflow: hidden;
+                padding: 4rem 0 1rem;
+
+                .foorbox {
+                    width: 90%;
+                    margin: auto;
+
+                    .foorboxmini {
+                        .textbox {
+                            text-align: start;
+
+                            h3 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                                font-size: 2.5rem;
+                                width: 80%;
+                            }
+                        }
+
+                        .rowbox {
+                            padding: 2rem 0 0;
+
+                            .boxes {
+                                .box {
+                                    padding: 2rem 0;
+                                    position: relative;
+                                    left: 54%;
+                                    transform: translateX(-50%);
+
+                                    .foto {
+                                        width: 60%;
+                                        margin: auto;
+
+                                    }
+
+                                    .textmini {
+                                        margin: auto;
+                                        width: 100%;
+
+                                        h5 {
+                                            color: white;
+                                            padding: 10px 0 15px;
+                                        }
+
+                                        p {
+                                            color: #DFE5E6;
+                                            width: 95%;
+                                            margin: auto;
+                                            font-size: 1rem;
+                                            margin: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media(min-width:600px) and (max-width:768px) {
-    
+    #about {
+        background-color: black;
+
+        .about-mini {
+            #one {
+                padding: 2rem 0 1rem;
+
+                .box {
+                    padding: 1rem 0;
+
+                    .text {
+                        h1 {
+                            font-size: 3.5rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+
+                        h6 {
+                            width: 60%;
+                            margin: auto;
+                            padding: 10px 0 15px;
+                            color: white;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            color: #DFE5E6;
+
+                        }
+                    }
+                }
+
+                .minione {
+                    padding: 2rem 0;
+
+                    .rowbox {
+                        .left {
+                            display: grid;
+                            place-items: center;
+                        }
+
+                        .right {
+                            display: grid;
+                            place-items: center;
+
+                            .textbox {
+
+                                .mini {
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 90%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #two {
+                .minitwo {
+                    width: 85%;
+                    margin: auto;
+
+                    .tworow {
+                        .left {
+                            display: grid;
+                            place-items: center;
+
+                            .text {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h2 {
+                                    color: white;
+                                    font-size: 2rem;
+                                    width: 100%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 100%;
+                                    padding-top: 10px;
+                                }
+                            }
+                        }
+
+                        .right {
+                            display: grid;
+                            place-items: center;
+                            .photo {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #three {
+                padding: 10rem 0 1rem;
+
+                .threemini {
+                    width: 85%;
+                    margin: auto;
+
+                    .threerow {
+                        .left {
+                            .textbox {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h2 {
+                                    color: white;
+                                    width: 80%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 100% !important;
+                                }
+                            }
+                        }
+
+                        .right {
+                            background-image: url('/img/Rectangle\ 7.png');
+                            background-size: 400px;
+                            background-repeat: no-repeat;
+
+                            .rightmini {
+
+                                .bigbox {
+                                    display: flex;
+                                    width: 100%;
+                                    gap: 20px;
+                                    flex-wrap: wrap;
+
+                                    .boxes {
+                                        display: grid;
+                                        place-items: center;
+                                        width: 45%;
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        height: 18vh;
+                                        background-color: black;
+
+                                        .minibox {
+                                            text-align: center;
+
+                                            h6 {
+                                                color: white;
+                                                font-size: 13px;
+                                            }
+
+                                            span {
+                                                color: white;
+                                                font-size: 2.8rem;
+                                                font-weight: bold;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #foor {
+                overflow: hidden;
+                padding: 6rem 0 7rem;
+
+                .foorbox {
+                    width: 90%;
+                    margin: auto;
+
+                    .foorboxmini {
+                        .textbox {
+                            text-align: center;
+
+                            h3 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                                font-size: 2.5rem;
+                            }
+                        }
+
+                        .rowbox {
+                            padding: 1rem 0 0 !important;
+
+                            .boxes {
+                                .box {
+                                    padding: 1rem 0;
+
+                                    .foto {
+                                        width: 30%;
+                                        margin: auto;
+
+                                    }
+
+                                    .textmini {
+                                        margin: auto;
+
+                                        h5 {
+                                            color: white;
+                                            padding: 10px 0 15px;
+                                        }
+
+                                        p {
+                                            color: #DFE5E6;
+                                            width: 90%;
+                                            margin: auto;
+                                            font-size: 1rem;
+                                            width: 60%;
+                                            margin: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media(min-width:768px) and (max-width:992px) {
-    
+    #about {
+        background-color: black;
+
+        .about-mini {
+            #one {
+                padding: 2rem 0 1rem;
+
+                .box {
+                    padding: 1rem 0;
+
+                    .text {
+                        h1 {
+                            font-size: 3.5rem;
+                            font-weight: bold;
+                            color: white;
+                        }
+
+                        h6 {
+                            width: 60%;
+                            margin: auto;
+                            padding: 10px 0 15px;
+                            color: white;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            color: #DFE5E6;
+
+                        }
+                    }
+                }
+
+                .minione {
+                    padding: 2rem 0;
+
+                    .rowbox {
+                        .left {
+                            display: grid;
+                            place-items: center;
+                        }
+
+                        .right {
+                            display: grid;
+                            place-items: center;
+
+                            .textbox {
+
+                                .mini {
+                                    h6 {
+                                        color: #34C759;
+                                    }
+
+                                    h1 {
+                                        color: white;
+                                        width: 90%;
+                                    }
+
+                                    p {
+                                        color: #DFE5E6;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #two {
+                .minitwo {
+                    width: 85%;
+                    margin: auto;
+
+                    .tworow {
+                        .left {
+                            display: grid;
+                            place-items: center;
+
+                            .text {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h2 {
+                                    color: white;
+                                    font-size: 2rem;
+                                    width: 100%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 100%;
+                                    padding-top: 10px;
+                                }
+                            }
+                        }
+
+                        .right {
+                            display: grid;
+                            place-items: center;
+                            .photo {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #three {
+                padding: 10rem 0 1rem;
+
+                .threemini {
+                    width: 85%;
+                    margin: auto;
+
+                    .threerow {
+                        .left {
+                            .textbox {
+                                h6 {
+                                    color: #34C759;
+                                }
+
+                                h2 {
+                                    color: white;
+                                    width: 80%;
+                                }
+
+                                p {
+                                    color: #DFE5E6;
+                                    width: 90%;
+                                }
+                            }
+                        }
+
+                        .right {
+                            background-image: url('/img/Rectangle\ 7.png');
+                            background-size: 400px;
+                            background-repeat: no-repeat;
+
+                            .rightmini {
+
+                                .bigbox {
+                                    display: flex;
+                                    width: 100%;
+                                    gap: 20px;
+                                    flex-wrap: wrap;
+
+                                    .boxes {
+                                        display: grid;
+                                        place-items: center;
+                                        width: 45%;
+                                        border: 1px solid #34C759;
+                                        border-radius: 10px;
+                                        height: 18vh;
+                                        background-color: black;
+
+                                        .minibox {
+                                            text-align: center;
+
+                                            h6 {
+                                                color: white;
+                                                font-size: 13px;
+                                            }
+
+                                            span {
+                                                color: white;
+                                                font-size: 2.8rem;
+                                                font-weight: bold;
+
+                                                small {
+                                                    font-size: 2rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #foor {
+                overflow: hidden;
+                padding: 6rem 0 7rem;
+
+                .foorbox {
+                    width: 90%;
+                    margin: auto;
+
+                    .foorboxmini {
+                        .textbox {
+                            text-align: center;
+
+                            h3 {
+                                color: #34C759;
+                            }
+
+                            h2 {
+                                color: white;
+                                font-size: 2.5rem;
+                            }
+                        }
+
+                        .rowbox {
+                            padding: 1rem 0 0 !important;
+
+                            .boxes {
+                                .box {
+                                    padding: 1rem 0;
+
+                                    .foto {
+                                        width: 30%;
+                                        margin: auto;
+
+                                    }
+
+                                    .textmini {
+                                        margin: auto;
+
+                                        h5 {
+                                            color: white;
+                                            padding: 10px 0 15px;
+                                        }
+
+                                        p {
+                                            color: #DFE5E6;
+                                            width: 90%;
+                                            margin: auto;
+                                            font-size: 1rem;
+                                            width: 60%;
+                                            margin: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
