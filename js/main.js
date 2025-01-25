@@ -12,15 +12,7 @@
      responsiveMenu.classList.remove('active');
  });
  
-const listItems = document.querySelectorAll('.orta a');
 
-listItems.forEach(item => {
-    item.addEventListener('click', function() {
-        listItems.forEach(link => link.classList.remove('a'));
-
-        this.classList.add('a');
-    });
-});
 
 
 

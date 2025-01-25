@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.faqheader{
+    #headers{
+        .header-minibox{
+            .boxes{
+                .orta{
+                    ul{
+                        .li2{
+                            a{
+
+                                border-bottom: 1px solid #34C759;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 #faq {
     background-color: black;
     padding: 4rem 0;
+    overflow: hidden;
 
     .faq-mini {
         width: 90%;
         margin: auto;
+        overflow: hidden;
 
         .faq-minibox {
             .box-mini {
@@ -21,12 +42,14 @@
                         color: white;
                         font-size: 20px;
                         font-weight: 500;
+                        font-family: "Poppins", serif;
                     }
 
                     p {
                         padding: 20px 0;
                         color: #DFE5E6;
                         font-size: 1rem;
+                        font-family: "Poppins", serif;
                     }
                 }
 
@@ -39,7 +62,8 @@
                     h1 {
                         color: white;
                         font-weight: bold;
-                        font-size: 3rem;
+                        font-size: 3.5rem;
+                        font-family: "Poppins", serif;
                     }
 
                     h5 {
@@ -48,11 +72,13 @@
                         font-weight: 500;
                         width: 90%;
                         padding: 15px 0 10px;
+                        font-family: "Poppins", serif;
                     }
 
                     p {
                         color: #DFE5E6;
                         font-size: 14px;
+                        font-family: "Poppins", serif;
                     }
                 }
             }
@@ -81,6 +107,7 @@
 
                     input::placeholder {
                         font-size: 13px;
+                        font-family: "Poppins", serif;
                         color: #DFE5E6;
                     }
 
@@ -108,9 +135,9 @@
 
 @media(max-width:600px) {
     #faq {
+        overflow: hidden;
         .faq-mini {
-            
-            
+            overflow: hidden;
             .faq-minibox {
                 width: 100%;
                 margin: auto;
@@ -126,7 +153,7 @@
                             width: 100%;
                         }
 
-                        
+
                     }
                 }
 
@@ -155,7 +182,9 @@
 
 @media(min-width:600px) and (max-width:768px) {
     #faq {
+        overflow: hidden;
         .faq-mini {
+            overflow: hidden;
             .faq-minibox {
                 .boxes {
                     div {
@@ -185,7 +214,9 @@
 
 @media(min-width:768px) and (max-width:992px) {
     #faq {
+        overflow: hidden;
         .faq-mini {
+            overflow: hidden;
             .faq-minibox {
                 .boxes {
                     div {

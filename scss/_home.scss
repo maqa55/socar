@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 #home {
     background-color: black;
+    overflow: hidden;
 
     .home-mini {
+        overflow: hidden;
         #one {
             overflow: hidden;
 
@@ -20,7 +24,6 @@
                         .textmini {
                             h1 {
                                 color: white;
-                                font-size: Montserrat;
                                 font-weight: 800;
                                 font-size: 3rem;
                             }
@@ -28,13 +31,17 @@
                             h5 {
                                 padding: 20px 0 10px;
                                 color: white;
-                                font-size: 18px;
+                                font-size: 16px;
                                 width: 87%;
+                                font-weight: 500;
+                                font-family: "Poppins", serif;
                             }
 
                             p {
                                 color: #DFE5E6;
-                                font-size: 13px;
+                                font-size: 12px;
+                                font-size: 400;
+                                font-family: "Poppins", serif;
                             }
 
                             a {
@@ -43,20 +50,26 @@
                                 padding: 10px 20px;
                                 background: #34C759;
                                 color: white;
+                                font-weight: 600;
+                                font-size: 16px;
                                 text-decoration: none;
                                 border-radius: 25px;
+                                font-family: "Poppins", serif;
                             }
                         }
                     }
                 }
 
                 .right {
+                    background-image: url('/img/Frame\ 27\ \(2\).png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    right: -25px;
+
                     .rightbox {
                         .imgr {
-                            width: 100%;
-                            height: 100%;
-                            position: relative;
-                            right: -50px;
+                            opacity: 0;
 
                             img {
                                 width: 100%;
@@ -70,6 +83,7 @@
 
         #coin {
             padding: 0 0 2rem;
+            overflow: hidden;
 
             .coin-box {
                 display: grid;
@@ -97,22 +111,26 @@
 
                                 h5 {
                                     color: gray;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 span {
                                     color: green;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 p {
                                     color: white;
-                                    font-weight: bold;
+                                    font-weight: 600;
                                     font-size: 18px;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 .boxp {
                                     color: green;
-                                    font-weight: bold;
+                                    font-weight: 600;
                                     font-size: 18px;
+                                    font-family: "Poppins", serif;
                                 }
                             }
                         }
@@ -132,14 +150,16 @@
                                 li {
                                     h5 {
                                         color: white;
+                                        font-family: "Poppins", serif;
                                     }
                                 }
                             }
 
                             h6 {
                                 color: gray;
-                                font-weight: bold;
+                                font-family: "Poppins", serif;
                                 font-size: 1rem;
+                                font-weight: 600;
                             }
                         }
 
@@ -167,6 +187,7 @@
 
         #three {
             padding: 4rem 0;
+            overflow: hidden;
 
             .thre-mini {
                 .right {
@@ -176,17 +197,20 @@
                     .rightmini {
                         h5 {
                             color: #34C759;
+                            font-family: "Poppins", serif;
                         }
 
                         h1 {
                             color: white;
                             width: 70%;
+                            font-family: "Poppins", serif;
                         }
 
                         p {
                             color: gray;
                             width: 90%;
                             padding: 10px 0 30px;
+                            font-family: "Poppins", serif;
                         }
 
                         a {
@@ -196,6 +220,7 @@
                             border: 2px solid #34C759;
                             border-radius: 30px;
                             padding: 10px 15px;
+                            font-family: "Poppins", serif;
                         }
                     }
                 }
@@ -228,10 +253,12 @@
 
                         h3 {
                             color: #34C759;
+                            font-family: "Poppins", serif;
                         }
 
                         h2 {
                             color: white;
+                            font-family: "Poppins", serif;
                         }
                     }
 
@@ -249,6 +276,7 @@
                                     h5 {
                                         color: white;
                                         padding: 10px 0 15px;
+                                        font-family: "Poppins", serif;
                                     }
 
                                     p {
@@ -256,6 +284,7 @@
                                         width: 90%;
                                         margin: auto;
                                         font-size: 1rem;
+                                        font-family: "Poppins", serif;
                                     }
                                 }
                             }
@@ -267,19 +296,23 @@
 
         #five {
             padding: 7rem 0 10rem;
+            overflow: hidden;
 
             .fivemini {
-                width: 90%;
-                margin: auto;
 
                 .fivebox {
                     .boxes {
+                        width: 90%;
+
+                        margin: auto;
+
                         .boxin {
+                            background-image: url('/img/Rectangle\ 7.png');
+                            background-size: 750px;
+                            background-repeat: no-repeat;
+                            background-position: center;
                             position: relative;
                             overflow: hidden;
-                            background-image: url('/img/Rectangle\ 7.png');
-                            background-size: cover;
-                            background-position: center;
                             padding: 4rem 0;
 
                             .boxmini {
@@ -305,12 +338,14 @@
 
                                         .p1 {
                                             color: white;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         .plorem {
                                             color: #DFE5E6;
                                             font-weight: 300;
                                             font-size: 1rem;
+                                            font-family: "Poppins", serif;
                                             padding-top: 5px;
                                         }
 
@@ -318,10 +353,12 @@
                                             font-size: 3rem;
                                             font-weight: bold;
                                             color: white;
+                                            font-family: "Poppins", serif;
 
                                             small {
                                                 font-size: 2rem;
                                                 font-weight: bold;
+                                                font-family: "Poppins", serif;
                                             }
                                         }
 
@@ -329,6 +366,7 @@
                                             color: #DFE5E6;
                                             font-weight: 300;
                                             font-size: 1rem;
+                                            font-family: "Poppins", serif;
 
                                             i {
                                                 color: white;
@@ -346,6 +384,7 @@
                                             padding: 10px 30px;
                                             background-color: white;
                                             color: #06942A;
+                                            font-family: "Poppins", serif;
                                         }
                                     }
                                 }
@@ -376,16 +415,19 @@
                                             font-weight: 300;
                                             font-size: 1rem;
                                             padding-top: 10px;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         span {
                                             font-size: 3rem;
+                                            font-family: "Poppins", serif;
                                             font-weight: bold;
                                             color: white;
 
                                             small {
                                                 font-size: 2rem;
                                                 font-weight: bold;
+                                                font-family: "Poppins", serif;
                                             }
                                         }
 
@@ -393,6 +435,7 @@
                                             color: #DFE5E6;
                                             font-weight: 300;
                                             font-size: 1rem;
+                                            font-family: "Poppins", serif;
 
                                             i {
                                                 color: #34C759;
@@ -409,6 +452,7 @@
                                             border: 1px solid #34C759;
                                             padding: 10px 30px;
                                             color: #34C759;
+                                            font-family: "Poppins", serif;
                                         }
                                     }
                                 }
@@ -417,19 +461,23 @@
                             .text {
                                 h6 {
                                     color: #34C759;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 h1 {
                                     color: white;
                                     width: 75%;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 p {
                                     color: #DFE5E6;
+                                    font-family: "Poppins", serif;
                                     padding: 5px 0 25px;
                                 }
 
                                 a {
+                                    font-family: "Poppins", serif;
                                     display: inline-block;
                                     text-decoration: none;
                                     border-radius: 25px;
@@ -466,6 +514,7 @@
 
                                         .p1 {
                                             color: white;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         .plorem {
@@ -473,16 +522,19 @@
                                             font-weight: 300;
                                             font-size: 1rem;
                                             padding-top: 5px;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         span {
                                             font-size: 3rem;
                                             font-weight: bold;
                                             color: white;
+                                            font-family: "Poppins", serif;
 
                                             small {
                                                 font-size: 2rem;
                                                 font-weight: bold;
+                                                font-family: "Poppins", serif;
                                             }
                                         }
 
@@ -490,6 +542,7 @@
                                             color: #DFE5E6;
                                             font-weight: 300;
                                             font-size: 1rem;
+                                            font-family: "Poppins", serif;
 
                                             i {
                                                 color: white;
@@ -507,6 +560,7 @@
                                             padding: 10px 30px;
                                             background-color: white;
                                             color: #06942A;
+                                            font-family: "Poppins", serif;
                                         }
                                     }
                                 }
@@ -530,6 +584,7 @@
 
                                         .p1 {
                                             color: white;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         .plorem {
@@ -537,16 +592,19 @@
                                             font-weight: 300;
                                             font-size: 1rem;
                                             padding-top: 10px;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         span {
                                             font-size: 3rem;
                                             font-weight: bold;
                                             color: white;
+                                            font-family: "Poppins", serif;
 
                                             small {
                                                 font-size: 2rem;
                                                 font-weight: bold;
+                                                font-family: "Poppins", serif;
                                             }
                                         }
 
@@ -554,6 +612,7 @@
                                             color: #DFE5E6;
                                             font-weight: 300;
                                             font-size: 1rem;
+                                            font-family: "Poppins", serif;
 
                                             i {
                                                 color: #34C759;
@@ -570,6 +629,7 @@
                                             border: 1px solid #34C759;
                                             padding: 10px 30px;
                                             color: #34C759;
+                                            font-family: "Poppins", serif;
                                         }
                                     }
                                 }
@@ -578,19 +638,23 @@
                             .text {
                                 h6 {
                                     color: #34C759;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 h1 {
                                     color: white;
                                     width: 75%;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 p {
                                     color: #DFE5E6;
                                     padding: 5px 0 25px;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 a {
+                                    font-family: "Poppins", serif;
                                     display: inline-block;
                                     text-decoration: none;
                                     border-radius: 25px;
@@ -629,12 +693,14 @@
                         color: white;
                         font-weight: bold;
                         padding-bottom: 5px;
+                        font-family: "Poppins", serif;
                     }
 
                     p {
                         color: #DFE5E6;
-                        width: 45%;
+                        width: 50%;
                         margin: auto;
+                        font-family: "Poppins", serif;
                     }
 
                     a {
@@ -642,13 +708,17 @@
                         display: inline-block;
                         text-decoration: none;
                         border-radius: 25px;
+                        font-family: "Poppins", serif;
                         padding: 11px 30px;
                         background-color: white;
                         color: #06942A;
+                        font-weight: 600;
+                        font-size: 18px;
                     }
                 }
             }
         }
+
 
     }
 
@@ -657,8 +727,9 @@
 @media(max-width:600px) {
     #home {
         background-color: black;
-
+        overflow: hidden;
         .home-mini {
+            overflow: hidden;
             #one {
                 overflow: hidden;
                 padding: 17rem 0 0;
@@ -712,13 +783,15 @@
 
                     .right {
                         padding: 5rem 0 0;
+                        background-image: none;
 
                         .rightbox {
                             .imgr {
+                                opacity: 1;
                                 width: 100%;
                                 height: 100%;
                                 position: relative;
-                                right: -50px;
+                                right: -10px;
 
                                 img {
                                     width: 100%;
@@ -732,7 +805,7 @@
 
             #coin {
                 padding: 0 0 2rem;
-
+                overflow: hidden;
                 .coin-box {
                     display: grid;
                     place-items: end;
@@ -841,7 +914,7 @@
 
             #three {
                 padding: 4rem 0;
-
+                overflow: hidden;
                 .thre-mini {
                     width: 100%;
                     margin: auto;
@@ -851,6 +924,9 @@
                         place-items: center;
 
                         .rightmini {
+                            width: 95%;
+                            margin: auto;
+
                             h5 {
                                 color: #34C759;
                             }
@@ -948,12 +1024,13 @@
 
             #five {
                 padding: 1rem 0 4rem;
-
+                overflow: hidden;
                 .fivemini {
                     width: 100%;
                     margin: auto;
 
                     .fivebox {
+
                         position: relative;
                         overflow: hidden;
                         background-image: url('/img/Rectangle\ 7.png');
@@ -972,7 +1049,7 @@
                                     padding: 1.5rem 0 0;
                                     width: 90%;
                                     position: relative;
-                                    left: 48%;
+                                    left: 45%;
                                     transform: translateX(-50%);
                                     margin: auto;
                                     flex-direction: column;
@@ -1369,8 +1446,9 @@
 @media(min-width:600px) and (max-width:768px) {
     #home {
         background-color: black;
-
+        overflow: hidden;
         .home-mini {
+            overflow: hidden;
             #one {
                 overflow: hidden;
 
@@ -1440,7 +1518,7 @@
 
             #coin {
                 padding: 2rem 0 1rem !important;
-
+                overflow: hidden;
                 .coin-box {
                     display: grid;
                     place-items: end;
@@ -1537,7 +1615,7 @@
 
             #three {
                 padding: 4rem 0;
-
+                overflow: hidden;
                 .thre-mini {
                     .right {
                         display: grid;
@@ -1644,20 +1722,22 @@
 
             #five {
                 padding: 3rem 0 7rem !important;
-
+                overflow: hidden;
                 .fivemini {
                     width: 100%;
                     margin: auto;
 
                     .fivebox {
                         .boxes {
+                            position: relative;
+                            overflow: hidden;
+                            background-image: url('/img/Rectangle\ 7.png');
+                            background-size: cover;
+                            background-position: center;
+                            padding: 1rem 0 !important;
+
                             .boxin {
-                                position: relative;
-                                overflow: hidden;
-                                background-image: url('/img/Rectangle\ 7.png');
-                                background-size: cover;
-                                background-position: center;
-                                padding: 1rem 0 !important;
+                                background-image: none !important;
 
                                 .boxmini {
                                     gap: 20px;
@@ -2043,8 +2123,9 @@
 @media(min-width:768px) and (max-width:992px) {
     #home {
         background-color: black;
-
+        overflow: hidden;
         .home-mini {
+            overflow: hidden;
             #one {
                 overflow: hidden;
 
@@ -2114,7 +2195,7 @@
 
             #coin {
                 padding: 2rem 0 1rem !important;
-
+                overflow: hidden;
                 .coin-box {
                     display: grid;
                     place-items: end;
@@ -2211,7 +2292,7 @@
 
             #three {
                 padding: 4rem 0;
-
+                overflow: hidden;
                 .thre-mini {
                     .right {
                         display: grid;
@@ -2224,7 +2305,7 @@
 
                             h1 {
                                 color: white;
-                                width: 70%;
+                                width: 90%;
                             }
 
                             p {
@@ -2318,20 +2399,25 @@
 
             #five {
                 padding: 3rem 0 7rem !important;
-
+                overflow: hidden;
                 .fivemini {
                     width: 100%;
                     margin: auto;
 
                     .fivebox {
+                        position: relative;
+                        overflow: hidden;
+                        background-image: url('/img/Rectangle\ 7.png');
+                        background-size: cover;
+                        background-position: center;
+                        padding: 1rem 0 !important;
+
                         .boxes {
+                            background-image: none !important;
+
                             .boxin {
-                                position: relative;
-                                overflow: hidden;
-                                background-image: url('/img/Rectangle\ 7.png');
-                                background-size: cover;
-                                background-position: center;
-                                padding: 1rem 0 !important;
+
+                                background-image: none !important;
 
                                 .boxmini {
                                     gap: 20px;

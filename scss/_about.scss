@@ -1,10 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.aboutheader{
+    #headers{
+        .header-minibox{
+            .boxes{
+                .orta{
+                    ul{
+                        .li1{
+                            a{
+
+                                border-bottom: 1px solid #34C759;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 #about {
     background-color: black;
-
+overflow: hidden;
     .about-mini {
+        overflow: hidden;
         #one {
             padding: 2rem 0 1rem;
-
+            overflow: hidden;
             .box {
                 padding: 1rem 0;
 
@@ -13,19 +33,21 @@
                         font-size: 3.5rem;
                         font-weight: bold;
                         color: white;
+                        font-family: "Poppins", serif;
                     }
 
                     h6 {
-                        width: 35%;
+                        width: 40%;
                         margin: auto;
                         padding: 10px 0 15px;
                         color: white;
+                        font-family: "Poppins", serif;
                     }
 
                     p {
                         font-size: 14px;
                         color: #DFE5E6;
-
+                        font-family: "Poppins", serif;
                     }
                 }
             }
@@ -50,16 +72,19 @@
                             .mini {
                                 h6 {
                                     color: #34C759;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 h1 {
                                     color: white;
                                     width: 60%;
+                                    font-family: "Poppins", serif;
                                 }
 
                                 p {
                                     color: #DFE5E6;
                                     width: 80%;
+                                    font-family: "Poppins", serif;
                                 }
                             }
                         }
@@ -69,6 +94,7 @@
         }
 
         #two {
+            overflow: hidden;
             .minitwo {
                 width: 85%;
                 margin: auto;
@@ -81,18 +107,21 @@
                         .text {
                             h6 {
                                 color: #34C759;
+                                font-family: "Poppins", serif;
                             }
 
                             h2 {
                                 color: white;
                                 font-size: 2rem;
                                 width: 60%;
+                                font-family: "Poppins", serif;
                             }
 
                             p {
                                 color: #DFE5E6;
                                 width: 90%;
                                 padding-top: 10px;
+                                font-family: "Poppins", serif;
                             }
                         }
                     }
@@ -107,6 +136,7 @@
         }
 
         #three {
+            overflow: hidden;
             padding: 10rem 0 1rem;
 
             .threemini {
@@ -118,16 +148,20 @@
                         .textbox {
                             h6 {
                                 color: #34C759;
+                                font-family: "Poppins", serif;
                             }
 
                             h2 {
                                 color: white;
                                 width: 70%;
+                                font-family: "Poppins", serif;
+                                padding: 5px 0;
                             }
 
                             p {
                                 color: #DFE5E6;
-                                width: 80%;
+                                width: 90%;
+                                font-family: "Poppins", serif;
                             }
                         }
                     }
@@ -159,15 +193,17 @@
                                         h6 {
                                             color: white;
                                             font-size: 13px;
+                                            font-family: "Poppins", serif;
                                         }
 
                                         span {
                                             color: white;
                                             font-size: 2.8rem;
                                             font-weight: bold;
-
+                                            font-family: "Poppins", serif;
                                             small {
                                                 font-size: 2rem;
+                                                font-family: "Poppins", serif;
                                             }
                                         }
                                     }
@@ -193,10 +229,12 @@
 
                         h3 {
                             color: #34C759;
+                            font-family: "Poppins", serif;
                         }
 
                         h2 {
                             color: white;
+                            font-family: "Poppins", serif;
                         }
                     }
 
@@ -214,6 +252,7 @@
                                     h5 {
                                         color: white;
                                         padding: 10px 0 15px;
+                                        font-family: "Poppins", serif;
                                     }
 
                                     p {
@@ -221,6 +260,7 @@
                                         width: 90%;
                                         margin: auto;
                                         font-size: 1rem;
+                                        font-family: "Poppins", serif;
                                     }
                                 }
                             }
@@ -238,7 +278,9 @@
         overflow: hidden;
 
         .about-mini {
+            overflow: hidden;
             #one {
+                overflow: hidden;
                 padding: 2rem 0 1rem;
 
                 .box {
@@ -310,6 +352,7 @@
             }
 
             #two {
+                overflow: hidden;
                 .minitwo {
                     width: 90%;
                     margin: auto;
@@ -350,7 +393,7 @@
 
             #three {
                 padding: 7rem 0 1rem;
-
+                overflow: hidden;
                 .threemini {
                     width: 85%;
                     margin: auto;
@@ -498,11 +541,12 @@
 @media(min-width:600px) and (max-width:768px) {
     #about {
         background-color: black;
-
+        overflow: hidden;
         .about-mini {
+            overflow: hidden;
             #one {
                 padding: 2rem 0 1rem;
-
+                overflow: hidden;
                 .box {
                     padding: 1rem 0;
 
@@ -565,6 +609,7 @@
             }
 
             #two {
+                overflow: hidden;
                 .minitwo {
                     width: 85%;
                     margin: auto;
@@ -606,7 +651,7 @@
 
             #three {
                 padding: 10rem 0 1rem;
-
+                overflow: hidden;
                 .threemini {
                     width: 85%;
                     margin: auto;
@@ -744,11 +789,12 @@
 @media(min-width:768px) and (max-width:992px) {
     #about {
         background-color: black;
-
+        overflow: hidden;
         .about-mini {
+            overflow: hidden;
             #one {
                 padding: 2rem 0 1rem;
-
+                overflow: hidden;
                 .box {
                     padding: 1rem 0;
 
@@ -811,6 +857,7 @@
             }
 
             #two {
+                overflow: hidden;
                 .minitwo {
                     width: 85%;
                     margin: auto;
@@ -852,7 +899,7 @@
 
             #three {
                 padding: 10rem 0 1rem;
-
+                overflow: hidden;
                 .threemini {
                     width: 85%;
                     margin: auto;

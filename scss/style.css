@@ -1,6 +1,12 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 #headers .header-mini {
   background: #232324;
+  overflow: hidden;
 }
 #headers .header-mini .box {
   width: 90%;
@@ -31,15 +37,19 @@
      -moz-appearance: none;
           appearance: none;
   padding: 0 5px;
+  font-family: "Poppins", serif;
 }
 #headers .header-mini .box .right ul li select option {
   color: black;
+  font-family: "Poppins", serif;
 }
 #headers .header-mini .box .right ul li p {
+  font-family: "Poppins", serif;
   margin: 0;
   padding: 0;
   color: white;
   padding-left: 5px;
+  font-weight: 400;
 }
 #headers .header-mini .box .left ul {
   margin: 0;
@@ -49,14 +59,17 @@
 #headers .header-mini .box .left ul li .p {
   color: green;
   font-size: 12px;
+  font-family: "Poppins", serif;
 }
 #headers .header-mini .box .left ul li p {
   margin: 0 5px;
   color: gainsboro;
   font-size: 12px;
+  font-family: "Poppins", serif;
 }
 #headers .header-mini .box .left ul li p span {
   color: white;
+  font-family: "Poppins", serif;
 }
 #headers .header-minibox {
   background: black;
@@ -86,7 +99,9 @@
 #headers .header-minibox .boxes .orta ul li a {
   text-decoration: none;
   color: white;
-  /* Tıklanan öğeye "active" sınıfı eklediğimizde border-bottom olacak */
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-weight: 600;
 }
 #headers .header-minibox .boxes .orta ul li a.a {
   border-bottom: 2px solid green;
@@ -109,10 +124,12 @@
 #headers .header-minibox .boxes .search .input-container input::-moz-placeholder {
   font-size: 13px;
   color: #DFE5E6;
+  font-family: "Poppins", serif;
 }
 #headers .header-minibox .boxes .search .input-container input::placeholder {
   font-size: 13px;
   color: #DFE5E6;
+  font-family: "Poppins", serif;
 }
 #headers .header-minibox .boxes .search .input-container a {
   text-decoration: none;
@@ -134,6 +151,7 @@
   }
   #headers .header-mini {
     padding: 5px 0;
+    overflow: hidden;
   }
   #headers .header-mini .box {
     width: 90%;
@@ -187,11 +205,6 @@
     background-color: black;
     transition: 0.3s ease-in-out;
   }
-  #headers .responsive-menu.active {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-  }
   #headers .responsive-menu .telresposive .tel {
     width: 90%;
     margin: auto;
@@ -216,11 +229,13 @@
     padding: 0 5px;
     border-radius: 5px;
     margin-right: 10px;
+    font-family: "Poppins", serif;
   }
   #headers .responsive-menu .telresposive .tel .xx select option {
     color: black;
     border-radius: 10px;
     border: 1px solid black;
+    font-family: "Poppins", serif;
   }
   #headers .responsive-menu .telresposive ul {
     list-style: none;
@@ -229,7 +244,7 @@
     margin: auto;
   }
   #headers .responsive-menu .telresposive ul li {
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 1px solid white;
     width: 100%;
   }
@@ -238,11 +253,19 @@
     width: 100%;
     text-decoration: none;
     display: inline-block;
+    font-family: "Poppins", serif;
+    font-weight: 600;
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
+  #headers .header-mini {
+    overflow: hidden;
+  }
   #headers .header-mini .box {
     width: 95%;
+  }
+  #headers .header-minibox {
+    overflow: hidden;
   }
   #headers .header-minibox .boxes {
     width: 100%;
@@ -255,8 +278,17 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  #headers {
+    overflow: hidden;
+  }
+  #headers .header-mini {
+    overflow: hidden;
+  }
   #headers .header-mini .box {
     width: 95%;
+  }
+  #headers .header-minibox {
+    overflow: hidden;
   }
   #headers .header-minibox .boxes {
     width: 95%;
@@ -271,15 +303,18 @@
 #footer {
   background: #2A2A2A;
   border-top: 3px solid #34C759;
+  overflow: hidden;
 }
 #footer .footer-mini {
   width: 90%;
   margin: auto;
   padding: 1rem 0 0;
+  overflow: hidden;
 }
 #footer .footer-mini hr {
   color: white;
   height: 2px;
+  font-family: "Poppins", serif;
 }
 #footer .footer-mini .footerbox .box {
   color: white;
@@ -293,11 +328,13 @@
 #footer .footer-mini .footerbox .box1 .loremp p {
   color: #E1E1E1;
   width: 75%;
+  font-family: "Poppins", serif;
 }
 #footer .footer-mini .footerbox .box1 .pi p {
   color: #E1E1E1;
   margin: 5px 0;
   padding: 0;
+  font-family: "Poppins", serif;
 }
 #footer .footer-mini .footerbox .box1 .pi p i {
   color: #34C759;
@@ -328,15 +365,23 @@
 #footer .footer-mini .footerbox .box2 .ul ul li a {
   text-decoration: none;
   color: white;
+  font-family: "Poppins", serif;
 }
 #footer .footer-mini .son {
   color: white;
 }
 #footer .footer-mini .son .sonbox p {
   padding-left: 25px;
+  font-family: "Poppins", serif;
 }
 
 @media (max-width: 600px) {
+  #footer {
+    overflow: hidden;
+  }
+  #footer .footer-mini {
+    overflow: hidden;
+  }
   #footer .footer-mini .footerbox .box {
     color: white;
     flex-direction: column;
@@ -399,6 +444,12 @@
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
+  #footer {
+    overflow: hidden;
+  }
+  #footer .footer-mini {
+    overflow: hidden;
+  }
   #footer .footer-mini .footerbox .box {
     color: white;
   }
@@ -461,8 +512,10 @@
   #footer {
     background: #2A2A2A;
     border-top: 3px solid #34C759;
+    overflow: hidden;
   }
   #footer .footer-mini {
+    overflow: hidden;
     width: 90%;
     margin: auto;
     padding: 1rem 0 0;
@@ -528,6 +581,10 @@
 }
 #home {
   background-color: black;
+  overflow: hidden;
+}
+#home .home-mini {
+  overflow: hidden;
 }
 #home .home-mini #one {
   overflow: hidden;
@@ -544,19 +601,22 @@
 }
 #home .home-mini #one .home-minibox .left .textbox .textmini h1 {
   color: white;
-  font-size: Montserrat;
   font-weight: 800;
   font-size: 3rem;
 }
 #home .home-mini #one .home-minibox .left .textbox .textmini h5 {
   padding: 20px 0 10px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   width: 87%;
+  font-weight: 500;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #one .home-minibox .left .textbox .textmini p {
   color: #DFE5E6;
-  font-size: 13px;
+  font-size: 12px;
+  font-size: 400;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #one .home-minibox .left .textbox .textmini a {
   margin: 1.9rem 0;
@@ -564,14 +624,21 @@
   padding: 10px 20px;
   background: #34C759;
   color: white;
+  font-weight: 600;
+  font-size: 16px;
   text-decoration: none;
   border-radius: 25px;
+  font-family: "Poppins", serif;
+}
+#home .home-mini #one .home-minibox .right {
+  background-image: url("/img/Frame 27 (2).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  right: -25px;
 }
 #home .home-mini #one .home-minibox .right .rightbox .imgr {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  right: -50px;
+  opacity: 0;
 }
 #home .home-mini #one .home-minibox .right .rightbox .imgr img {
   width: 100%;
@@ -579,6 +646,7 @@
 }
 #home .home-mini #coin {
   padding: 0 0 2rem;
+  overflow: hidden;
 }
 #home .home-mini #coin .coin-box {
   display: grid;
@@ -603,19 +671,23 @@
 }
 #home .home-mini #coin .coin-box .coin-boxmini .boxmini ul li h5 {
   color: gray;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #coin .coin-box .coin-boxmini .boxmini ul li span {
   color: green;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #coin .coin-box .coin-boxmini .boxmini ul li p {
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 18px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #coin .coin-box .coin-boxmini .boxmini ul li .boxp {
   color: green;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 18px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #coin .coin-box .coin-boxmini .one {
   position: relative;
@@ -626,11 +698,13 @@
 }
 #home .home-mini #coin .coin-box .coin-boxmini .one .boxminil ul li h5 {
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #coin .coin-box .coin-boxmini .one .boxminil h6 {
   color: gray;
-  font-weight: bold;
+  font-family: "Poppins", serif;
   font-size: 1rem;
+  font-weight: 600;
 }
 #home .home-mini #coin .coin-box .coin-boxmini .one .logo2 {
   background-color: rgba(51, 135, 90, 0.1490196078);
@@ -647,6 +721,7 @@
 }
 #home .home-mini #three {
   padding: 4rem 0;
+  overflow: hidden;
 }
 #home .home-mini #three .thre-mini .right {
   display: grid;
@@ -654,15 +729,18 @@
 }
 #home .home-mini #three .thre-mini .right .rightmini h5 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #three .thre-mini .right .rightmini h1 {
   color: white;
   width: 70%;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #three .thre-mini .right .rightmini p {
   color: gray;
   width: 90%;
   padding: 10px 0 30px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #three .thre-mini .right .rightmini a {
   display: inline-block;
@@ -671,6 +749,7 @@
   border: 2px solid #34C759;
   border-radius: 30px;
   padding: 10px 15px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #three .thre-mini .left .threeimg {
   width: 90%;
@@ -693,9 +772,11 @@
 }
 #home .home-mini #foor .foorbox .foorboxmini .textbox h3 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #foor .foorbox .foorboxmini .textbox h2 {
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #foor .foorbox .foorboxmini .rowbox {
   padding: 4rem 0 0;
@@ -707,26 +788,30 @@
 #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini h5 {
   color: white;
   padding: 10px 0 15px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini p {
   color: #DFE5E6;
   width: 90%;
   margin: auto;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five {
   padding: 7rem 0 10rem;
+  overflow: hidden;
 }
-#home .home-mini #five .fivemini {
+#home .home-mini #five .fivemini .fivebox .boxes {
   width: 90%;
   margin: auto;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+  background-image: url("/img/Rectangle 7.png");
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   overflow: hidden;
-  background-image: url("/img/Rectangle 7.png");
-  background-size: cover;
-  background-position: center;
   padding: 4rem 0;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini {
@@ -752,26 +837,31 @@
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 .p1 {
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 .plorem {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
+  font-family: "Poppins", serif;
   padding-top: 5px;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 span {
   font-size: 3rem;
   font-weight: bold;
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 span small {
   font-size: 2rem;
   font-weight: bold;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 h6 {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox1 .text2 h6 i {
   color: white;
@@ -786,6 +876,7 @@
   padding: 10px 30px;
   background-color: white;
   color: #06942A;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox {
   border: 1px solid #34C759;
@@ -811,20 +902,24 @@
   font-weight: 300;
   font-size: 1rem;
   padding-top: 10px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 span {
   font-size: 3rem;
+  font-family: "Poppins", serif;
   font-weight: bold;
   color: white;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 span small {
   font-size: 2rem;
   font-weight: bold;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 h6 {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini .boox .text1 h6 i {
   color: #34C759;
@@ -838,19 +933,24 @@
   border: 1px solid #34C759;
   padding: 10px 30px;
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .text h6 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .text h1 {
   color: white;
   width: 75%;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .text p {
   color: #DFE5E6;
+  font-family: "Poppins", serif;
   padding: 5px 0 25px;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .boxin .text a {
+  font-family: "Poppins", serif;
   display: inline-block;
   text-decoration: none;
   border-radius: 25px;
@@ -884,26 +984,31 @@
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox1 .text2 .p1 {
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox1 .text2 .plorem {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
   padding-top: 5px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox1 .text2 span {
   font-size: 3rem;
   font-weight: bold;
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox1 .text2 span small {
   font-size: 2rem;
   font-weight: bold;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox1 .text2 h6 {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox1 .text2 h6 i {
   color: white;
@@ -918,6 +1023,7 @@
   padding: 10px 30px;
   background-color: white;
   color: #06942A;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox {
   border: 1px solid #34C759;
@@ -937,26 +1043,31 @@
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox .text1 .p1 {
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox .text1 .plorem {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
   padding-top: 10px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox .text1 span {
   font-size: 3rem;
   font-weight: bold;
   color: white;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox .text1 span small {
   font-size: 2rem;
   font-weight: bold;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox .text1 h6 {
   color: #DFE5E6;
   font-weight: 300;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .boxmini .boox .text1 h6 i {
   color: #34C759;
@@ -970,19 +1081,24 @@
   border: 1px solid #34C759;
   padding: 10px 30px;
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .text h6 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .text h1 {
   color: white;
   width: 75%;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .text p {
   color: #DFE5E6;
   padding: 5px 0 25px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #five .fivemini .fivebox .boxes .box .text a {
+  font-family: "Poppins", serif;
   display: inline-block;
   text-decoration: none;
   border-radius: 25px;
@@ -1012,25 +1128,34 @@
   color: white;
   font-weight: bold;
   padding-bottom: 5px;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #end .endbox .endtext p {
   color: #DFE5E6;
-  width: 45%;
+  width: 50%;
   margin: auto;
+  font-family: "Poppins", serif;
 }
 #home .home-mini #end .endbox .endtext a {
   margin-top: 2rem;
   display: inline-block;
   text-decoration: none;
   border-radius: 25px;
+  font-family: "Poppins", serif;
   padding: 11px 30px;
   background-color: white;
   color: #06942A;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
   #home {
     background-color: black;
+    overflow: hidden;
+  }
+  #home .home-mini {
+    overflow: hidden;
   }
   #home .home-mini #one {
     overflow: hidden;
@@ -1075,12 +1200,14 @@
   }
   #home .home-mini #one .home-minibox .right {
     padding: 5rem 0 0;
+    background-image: none;
   }
   #home .home-mini #one .home-minibox .right .rightbox .imgr {
+    opacity: 1;
     width: 100%;
     height: 100%;
     position: relative;
-    right: -50px;
+    right: -10px;
   }
   #home .home-mini #one .home-minibox .right .rightbox .imgr img {
     width: 100%;
@@ -1088,6 +1215,7 @@
   }
   #home .home-mini #coin {
     padding: 0 0 2rem;
+    overflow: hidden;
   }
   #home .home-mini #coin .coin-box {
     display: grid;
@@ -1170,6 +1298,7 @@
   }
   #home .home-mini #three {
     padding: 4rem 0;
+    overflow: hidden;
   }
   #home .home-mini #three .thre-mini {
     width: 100%;
@@ -1178,6 +1307,10 @@
   #home .home-mini #three .thre-mini .right {
     display: grid;
     place-items: center;
+  }
+  #home .home-mini #three .thre-mini .right .rightmini {
+    width: 95%;
+    margin: auto;
   }
   #home .home-mini #three .thre-mini .right .rightmini h5 {
     color: #34C759;
@@ -1251,6 +1384,7 @@
   }
   #home .home-mini #five {
     padding: 1rem 0 4rem;
+    overflow: hidden;
   }
   #home .home-mini #five .fivemini {
     width: 100%;
@@ -1274,7 +1408,7 @@
     padding: 1.5rem 0 0;
     width: 90%;
     position: relative;
-    left: 48%;
+    left: 45%;
     transform: translateX(-50%);
     margin: auto;
     flex-direction: column;
@@ -1598,6 +1732,10 @@
 @media (min-width: 600px) and (max-width: 768px) {
   #home {
     background-color: black;
+    overflow: hidden;
+  }
+  #home .home-mini {
+    overflow: hidden;
   }
   #home .home-mini #one {
     overflow: hidden;
@@ -1650,6 +1788,7 @@
   }
   #home .home-mini #coin {
     padding: 2rem 0 1rem !important;
+    overflow: hidden;
   }
   #home .home-mini #coin .coin-box {
     display: grid;
@@ -1718,6 +1857,7 @@
   }
   #home .home-mini #three {
     padding: 4rem 0;
+    overflow: hidden;
   }
   #home .home-mini #three .thre-mini .right {
     display: grid;
@@ -1795,18 +1935,22 @@
   }
   #home .home-mini #five {
     padding: 3rem 0 7rem !important;
+    overflow: hidden;
   }
   #home .home-mini #five .fivemini {
     width: 100%;
     margin: auto;
   }
-  #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+  #home .home-mini #five .fivemini .fivebox .boxes {
     position: relative;
     overflow: hidden;
     background-image: url("/img/Rectangle 7.png");
     background-size: cover;
     background-position: center;
     padding: 1rem 0 !important;
+  }
+  #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+    background-image: none !important;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini {
     gap: 20px;
@@ -2119,6 +2263,10 @@
 @media (min-width: 768px) and (max-width: 992px) {
   #home {
     background-color: black;
+    overflow: hidden;
+  }
+  #home .home-mini {
+    overflow: hidden;
   }
   #home .home-mini #one {
     overflow: hidden;
@@ -2171,6 +2319,7 @@
   }
   #home .home-mini #coin {
     padding: 2rem 0 1rem !important;
+    overflow: hidden;
   }
   #home .home-mini #coin .coin-box {
     display: grid;
@@ -2239,6 +2388,7 @@
   }
   #home .home-mini #three {
     padding: 4rem 0;
+    overflow: hidden;
   }
   #home .home-mini #three .thre-mini .right {
     display: grid;
@@ -2249,7 +2399,7 @@
   }
   #home .home-mini #three .thre-mini .right .rightmini h1 {
     color: white;
-    width: 70%;
+    width: 90%;
   }
   #home .home-mini #three .thre-mini .right .rightmini p {
     color: gray;
@@ -2316,18 +2466,25 @@
   }
   #home .home-mini #five {
     padding: 3rem 0 7rem !important;
+    overflow: hidden;
   }
   #home .home-mini #five .fivemini {
     width: 100%;
     margin: auto;
   }
-  #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+  #home .home-mini #five .fivemini .fivebox {
     position: relative;
     overflow: hidden;
     background-image: url("/img/Rectangle 7.png");
     background-size: cover;
     background-position: center;
     padding: 1rem 0 !important;
+  }
+  #home .home-mini #five .fivemini .fivebox .boxes {
+    background-image: none !important;
+  }
+  #home .home-mini #five .fivemini .fivebox .boxes .boxin {
+    background-image: none !important;
   }
   #home .home-mini #five .fivemini .fivebox .boxes .boxin .boxmini {
     gap: 20px;
@@ -2637,11 +2794,20 @@
     color: #06942A;
   }
 }
+.aboutheader #headers .header-minibox .boxes .orta ul .li1 a {
+  border-bottom: 1px solid #34C759;
+}
+
 #about {
   background-color: black;
+  overflow: hidden;
+}
+#about .about-mini {
+  overflow: hidden;
 }
 #about .about-mini #one {
   padding: 2rem 0 1rem;
+  overflow: hidden;
 }
 #about .about-mini #one .box {
   padding: 1rem 0;
@@ -2650,16 +2816,19 @@
   font-size: 3.5rem;
   font-weight: bold;
   color: white;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #one .box .text h6 {
-  width: 35%;
+  width: 40%;
   margin: auto;
   padding: 10px 0 15px;
   color: white;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #one .box .text p {
   font-size: 14px;
   color: #DFE5E6;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #one .minione {
   padding: 2rem 0;
@@ -2674,14 +2843,20 @@
 }
 #about .about-mini #one .minione .rowbox .right .textbox .mini h6 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #one .minione .rowbox .right .textbox .mini h1 {
   color: white;
   width: 60%;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #one .minione .rowbox .right .textbox .mini p {
   color: #DFE5E6;
   width: 80%;
+  font-family: "Poppins", serif;
+}
+#about .about-mini #two {
+  overflow: hidden;
 }
 #about .about-mini #two .minitwo {
   width: 85%;
@@ -2693,21 +2868,25 @@
 }
 #about .about-mini #two .minitwo .tworow .left .text h6 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #two .minitwo .tworow .left .text h2 {
   color: white;
   font-size: 2rem;
   width: 60%;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #two .minitwo .tworow .left .text p {
   color: #DFE5E6;
   width: 90%;
   padding-top: 10px;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #two .minitwo .tworow .right .photo {
   width: 90%;
 }
 #about .about-mini #three {
+  overflow: hidden;
   padding: 10rem 0 1rem;
 }
 #about .about-mini #three .threemini {
@@ -2716,14 +2895,18 @@
 }
 #about .about-mini #three .threemini .threerow .left .textbox h6 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #three .threemini .threerow .left .textbox h2 {
   color: white;
   width: 70%;
+  font-family: "Poppins", serif;
+  padding: 5px 0;
 }
 #about .about-mini #three .threemini .threerow .left .textbox p {
   color: #DFE5E6;
-  width: 80%;
+  width: 90%;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #three .threemini .threerow .right {
   background-image: url("/img/Rectangle 7.png");
@@ -2751,14 +2934,17 @@
 #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox h6 {
   color: white;
   font-size: 13px;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span {
   color: white;
   font-size: 2.8rem;
   font-weight: bold;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #three .threemini .threerow .right .rightmini .bigbox .boxes .minibox span small {
   font-size: 2rem;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #foor {
   overflow: hidden;
@@ -2773,9 +2959,11 @@
 }
 #about .about-mini #foor .foorbox .foorboxmini .textbox h3 {
   color: #34C759;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #foor .foorbox .foorboxmini .textbox h2 {
   color: white;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #foor .foorbox .foorboxmini .rowbox {
   padding: 4rem 0 0;
@@ -2787,12 +2975,14 @@
 #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini h5 {
   color: white;
   padding: 10px 0 15px;
+  font-family: "Poppins", serif;
 }
 #about .about-mini #foor .foorbox .foorboxmini .rowbox .boxes .box .textmini p {
   color: #DFE5E6;
   width: 90%;
   margin: auto;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 
 @media (max-width: 600px) {
@@ -2800,7 +2990,11 @@
     background-color: black;
     overflow: hidden;
   }
+  #about .about-mini {
+    overflow: hidden;
+  }
   #about .about-mini #one {
+    overflow: hidden;
     padding: 2rem 0 1rem;
   }
   #about .about-mini #one .box {
@@ -2850,6 +3044,9 @@
     color: #DFE5E6;
     width: 100%;
   }
+  #about .about-mini #two {
+    overflow: hidden;
+  }
   #about .about-mini #two .minitwo {
     width: 90%;
     margin: auto;
@@ -2877,6 +3074,7 @@
   }
   #about .about-mini #three {
     padding: 7rem 0 1rem;
+    overflow: hidden;
   }
   #about .about-mini #three .threemini {
     width: 85%;
@@ -2984,9 +3182,14 @@
 @media (min-width: 600px) and (max-width: 768px) {
   #about {
     background-color: black;
+    overflow: hidden;
+  }
+  #about .about-mini {
+    overflow: hidden;
   }
   #about .about-mini #one {
     padding: 2rem 0 1rem;
+    overflow: hidden;
   }
   #about .about-mini #one .box {
     padding: 1rem 0;
@@ -3028,6 +3231,9 @@
     color: #DFE5E6;
     width: 100%;
   }
+  #about .about-mini #two {
+    overflow: hidden;
+  }
   #about .about-mini #two .minitwo {
     width: 85%;
     margin: auto;
@@ -3058,6 +3264,7 @@
   }
   #about .about-mini #three {
     padding: 10rem 0 1rem;
+    overflow: hidden;
   }
   #about .about-mini #three .threemini {
     width: 85%;
@@ -3156,9 +3363,14 @@
 @media (min-width: 768px) and (max-width: 992px) {
   #about {
     background-color: black;
+    overflow: hidden;
+  }
+  #about .about-mini {
+    overflow: hidden;
   }
   #about .about-mini #one {
     padding: 2rem 0 1rem;
+    overflow: hidden;
   }
   #about .about-mini #one .box {
     padding: 1rem 0;
@@ -3200,6 +3412,9 @@
     color: #DFE5E6;
     width: 100%;
   }
+  #about .about-mini #two {
+    overflow: hidden;
+  }
   #about .about-mini #two .minitwo {
     width: 85%;
     margin: auto;
@@ -3230,6 +3445,7 @@
   }
   #about .about-mini #three {
     padding: 10rem 0 1rem;
+    overflow: hidden;
   }
   #about .about-mini #three .threemini {
     width: 85%;
@@ -3325,6 +3541,10 @@
     margin: auto;
   }
 }
+.contactheader #headers .header-minibox .boxes .orta ul .li3 a {
+  border-bottom: 1px solid #34C759;
+}
+
 #contact {
   background-color: black;
   padding: 5rem 0 8rem;
@@ -3351,6 +3571,7 @@
   color: white;
   font-weight: bold;
   font-size: 3rem;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .textbox {
   width: 55%;
@@ -3362,9 +3583,11 @@
 }
 #contact .contact-mini .contact-mininbox .textbox input::-moz-placeholder {
   color: #B3B3B3;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .textbox input::placeholder {
   color: #B3B3B3;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .textbox textarea {
   width: 100%;
@@ -3376,17 +3599,21 @@
 }
 #contact .contact-mini .contact-mininbox .textbox textarea::-moz-placeholder {
   color: #B3B3B3;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .textbox textarea::placeholder {
   color: #B3B3B3;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .textbox h5 {
   font-size: 1rem;
   color: white;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .textbox label {
   color: gray;
   padding-bottom: 10px;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox .select {
   padding: 5px 0;
@@ -3395,6 +3622,7 @@
 #contact .contact-mini .contact-mininbox select {
   background: var(--Background-Brand-Default, #2C2C2C);
   color: #B3B3B3;
+  font-family: "Poppins", serif;
 }
 #contact .contact-mini .contact-mininbox a {
   text-decoration: none;
@@ -3404,9 +3632,17 @@
   border-radius: 30px;
   display: inline-block;
   margin: 10px 0;
+  font-weight: 600;
+  font-family: "Poppins", serif;
 }
 
 @media (max-width: 600px) {
+  #contact {
+    overflow: hidden;
+  }
+  #contact .contact-mini {
+    overflow: hidden;
+  }
   #contact .contact-mini .contact-mininbox {
     width: 100%;
     margin: auto;
@@ -3422,6 +3658,12 @@
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
+  #contact {
+    overflow: hidden;
+  }
+  #contact .contact-mini {
+    overflow: hidden;
+  }
   #contact .contact-mini .contact-mininbox {
     width: 100%;
     margin: auto;
@@ -3437,6 +3679,12 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  #contact {
+    overflow: hidden;
+  }
+  #contact .contact-mini {
+    overflow: hidden;
+  }
   #contact .contact-mini .contact-mininbox {
     width: 100%;
     margin: auto;
@@ -3451,13 +3699,19 @@
     width: 100%;
   }
 }
+.faqheader #headers .header-minibox .boxes .orta ul .li2 a {
+  border-bottom: 1px solid #34C759;
+}
+
 #faq {
   background-color: black;
   padding: 4rem 0;
+  overflow: hidden;
 }
 #faq .faq-mini {
   width: 90%;
   margin: auto;
+  overflow: hidden;
 }
 #faq .faq-mini .faq-minibox .box-mini {
   margin: 1rem 0;
@@ -3472,11 +3726,13 @@
   color: white;
   font-size: 20px;
   font-weight: 500;
+  font-family: "Poppins", serif;
 }
 #faq .faq-mini .faq-minibox .box-mini .box p {
   padding: 20px 0;
   color: #DFE5E6;
   font-size: 1rem;
+  font-family: "Poppins", serif;
 }
 #faq .faq-mini .faq-minibox .boxes {
   margin: 2rem 0 4rem;
@@ -3484,7 +3740,8 @@
 #faq .faq-mini .faq-minibox .boxes div h1 {
   color: white;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: "Poppins", serif;
 }
 #faq .faq-mini .faq-minibox .boxes div h5 {
   color: white;
@@ -3492,10 +3749,12 @@
   font-weight: 500;
   width: 90%;
   padding: 15px 0 10px;
+  font-family: "Poppins", serif;
 }
 #faq .faq-mini .faq-minibox .boxes div p {
   color: #DFE5E6;
   font-size: 14px;
+  font-family: "Poppins", serif;
 }
 #faq .faq-mini .faq-minibox .inp {
   display: flex;
@@ -3520,10 +3779,12 @@
 }
 #faq .faq-mini .faq-minibox .inp .input-container input::-moz-placeholder {
   font-size: 13px;
+  font-family: "Poppins", serif;
   color: #DFE5E6;
 }
 #faq .faq-mini .faq-minibox .inp .input-container input::placeholder {
   font-size: 13px;
+  font-family: "Poppins", serif;
   color: #DFE5E6;
 }
 #faq .faq-mini .faq-minibox .inp .input-container a {
@@ -3539,6 +3800,12 @@
 }
 
 @media (max-width: 600px) {
+  #faq {
+    overflow: hidden;
+  }
+  #faq .faq-mini {
+    overflow: hidden;
+  }
   #faq .faq-mini .faq-minibox {
     width: 100%;
     margin: auto;
@@ -3558,6 +3825,12 @@
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
+  #faq {
+    overflow: hidden;
+  }
+  #faq .faq-mini {
+    overflow: hidden;
+  }
   #faq .faq-mini .faq-minibox .boxes div h1 {
     font-size: 2rem;
   }
@@ -3569,6 +3842,12 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  #faq {
+    overflow: hidden;
+  }
+  #faq .faq-mini {
+    overflow: hidden;
+  }
   #faq .faq-mini .faq-minibox .boxes div h1 {
     color: white;
     font-weight: bold;
