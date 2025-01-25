@@ -195,7 +195,6 @@
     display: block;
     opacity: 0;
     visibility: hidden;
-    overflow-y: hidden;
     height: 60vh;
     position: absolute;
     top: -100%;
@@ -204,6 +203,11 @@
     z-index: 2;
     background-color: black;
     transition: 0.3s ease-in-out;
+  }
+  #headers .responsive-menu.active {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
   }
   #headers .responsive-menu .telresposive .tel {
     width: 90%;

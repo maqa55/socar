@@ -240,7 +240,6 @@ overflow: hidden;
             display: block;
             opacity: 0;
             visibility: hidden;
-            overflow-y: hidden;
             height: 60vh;
             position: absolute;
             top: -100%;
@@ -249,7 +248,11 @@ overflow: hidden;
             z-index: 2;
             background-color: black;
             transition: 0.3s ease-in-out;
-
+            &.active {
+                opacity: 1;
+                visibility: visible;
+                top: 0; 
+            }
             .telresposive {
 
                 .tel {
